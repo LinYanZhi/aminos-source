@@ -9,8 +9,7 @@
   "versions": {
     "8.9.3": {
       "urls": [
-        "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.3/npp.8.9.3.Installer.x64.exe",
-        "https://ghproxy.net/https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.3/npp.8.9.3.Installer.x64.exe"
+        "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.3/npp.8.9.3.Installer.x64.exe"
       ],
       "arch": "x64",
       "installer_type": "nsis",

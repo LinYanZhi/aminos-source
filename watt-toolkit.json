@@ -9,7 +9,7 @@
   "versions": {
     "latest": {
       "urls": [
-        "https://ghproxy.net/https://github.com/BeyondDimension/SteamTools/releases/latest/download/Steam++.Setup.exe"
+        "https://github.com/BeyondDimension/SteamTools/releases/latest/download/Steam++.Setup.exe"
       ],
       "arch": "x64",
       "installer_type": "inno",
