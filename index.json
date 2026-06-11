@@ -5,12 +5,10 @@
   "homepage": "https://github.com/LinYanZhi/aminos-source",
   "files": [
     "7zip.json",
-    "android-studio.json",
     "chrome.json",
     "clash-verge.json",
     "cursor.json",
     "datagrip.json",
-    "deveco-studio.json",
     "dingtalk.json",
     "edge.json",
     "everything.json",
