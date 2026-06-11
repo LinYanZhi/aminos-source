@@ -9,7 +9,6 @@
   "versions": {
     "latest": {
       "urls": [
-        "https://dldir1.qq.com/wework/work_weixin/WeCom_latest.exe",
         "https://work.weixin.qq.com/wework_admin/commdownload?platform=win"
       ],
       "arch": "x64",

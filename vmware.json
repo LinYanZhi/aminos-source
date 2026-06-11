@@ -9,7 +9,6 @@
   "versions": {
     "17.6.3": {
       "urls": [
-        "https://softwareupdate.vmware.com/cds/vmw-desktop/ws/17.6.3/24583834/windows/core/VMware-workstation-17.6.3-24583834.exe.tar",
         "https://www.techpowerup.com/download/vmware-workstation-pro/"
       ],
       "arch": "x64",
