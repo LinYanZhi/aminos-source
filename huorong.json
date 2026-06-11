@@ -1,0 +1,32 @@
+{
+  "name": "huorong",
+  "display_name": "火绒安全软件",
+  "aliases": ["火绒", "huorong", "火绒安全", "火绒安全软件"],
+  "description": "火绒推出的免费个人安全防护软件，轻量无广告，集病毒查杀、系统防护于一体。",
+  "category": "安全",
+  "homepage": "https://www.huorong.cn/",
+  "default_version": "6.0.10",
+  "versions": {
+    "6.0.10": {
+      "urls": [
+        "https://down-tencent.huorong.cn/sysdiag-all-x64-6.0.10.2-2026.06.06.1.exe",
+        "https://down7.huorong.cn/sysdiag-all-x64-6.0.10.2-2026.06.06.1.exe"
+      ],
+      "arch": "x64",
+      "installer_type": "inno",
+      "install_args": ["/S"],
+      "detection": {
+        "display_name": "火绒安全软件",
+        "publisher": "北京火绒网络科技有限公司"
+      },
+      "shortcut_candidates": [
+        "%PUBLIC%\\Desktop\\火绒安全软件.lnk",
+        "%USERPROFILE%\\Desktop\\火绒安全软件.lnk",
+        "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\火绒安全软件\\火绒安全软件.lnk"
+      ],
+      "install_dir_candidates": [
+        "C:\\Program Files\\Huorong\\Sysdiag"
+      ]
+    }
+  }
+}

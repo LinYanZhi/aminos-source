@@ -1,0 +1,31 @@
+{
+  "name": "visual-studio",
+  "display_name": "Visual Studio Community 2026",
+  "aliases": ["visual studio", "vs community", "vs2026"],
+  "description": "微软推出的功能强大的集成开发环境（IDE），支持多种编程语言。",
+  "category": "开发工具",
+  "homepage": "https://visualstudio.microsoft.com/",
+  "default_version": "2026",
+  "versions": {
+    "2026": {
+      "urls": [
+        "https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Release&version=VS2026&source=VSCDN&includeRecommended=true"
+      ],
+      "arch": "x64",
+      "installer_type": "custom",
+      "install_args": ["--quiet", "--wait"],
+      "detection": {
+        "display_name": "Visual Studio Community 2026",
+        "publisher": "Microsoft Corporation"
+      },
+      "shortcut_candidates": [
+        "%PUBLIC%\\Desktop\\Visual Studio 2026.lnk",
+        "%USERPROFILE%\\Desktop\\Visual Studio 2026.lnk",
+        "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio 2026\\Visual Studio 2026.lnk"
+      ],
+      "install_dir_candidates": [
+        "C:\\Program Files\\Microsoft Visual Studio\\2026\\Community"
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "todesk",
+  "display_name": "ToDesk",
+  "aliases": ["todesk", "totodesk"],
+  "description": "高速流畅的远程控制软件，支持 4K 高清画质、文件传输。",
+  "category": "工具",
+  "homepage": "https://www.todesk.com/",
+  "default_version": "latest",
+  "versions": {
+    "latest": {
+      "urls": [
+        "https://update.todesk.com/windows/Todesk_latest.exe"
+      ],
+      "arch": "x64",
+      "installer_type": "inno",
+      "install_args": ["/S"],
+      "detection": {
+        "display_name": "ToDesk",
+        "publisher": "ToDesk"
+      },
+      "shortcut_candidates": [
+        "%PUBLIC%\\Desktop\\ToDesk.lnk",
+        "%USERPROFILE%\\Desktop\\ToDesk.lnk"
+      ],
+      "install_dir_candidates": [
+        "C:\\Program Files\\ToDesk"
+      ]
+    }
+  }
+}

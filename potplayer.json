@@ -1,0 +1,29 @@
+{
+  "name": "potplayer",
+  "display_name": "PotPlayer",
+  "description": "韩国 Kakao 团队推出的全能视频播放器，内置强大解码器，支持 4K/8K 硬件加速。",
+  "category": "影音",
+  "homepage": "https://potplayer.daum.net",
+  "default_version": "1.7.22898",
+  "versions": {
+    "1.7.22898": {
+      "urls": [
+        "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe"
+      ],
+      "arch": "x64",
+      "installer_type": "nsis",
+      "install_args": ["/S"],
+      "install_dir_candidates": [
+        "C:\\Program Files\\DAUM\\PotPlayer"
+      ],
+      "detection": {
+        "display_name": "PotPlayer",
+        "publisher": "Kakao Corp."
+      },
+      "shortcut_candidates": [
+        "%PUBLIC%\\Desktop\\PotPlayer.lnk",
+        "%USERPROFILE%\\Desktop\\PotPlayer.lnk"
+      ]
+    }
+  }
+}

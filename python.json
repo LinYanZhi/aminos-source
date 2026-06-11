@@ -1,0 +1,35 @@
+{
+  "name": "python",
+  "display_name": "Python",
+  "description": "Python 编程语言（Windows 官方安装版）。",
+  "category": "开发工具",
+  "homepage": "https://www.python.org/",
+  "default_version": "3.14.5",
+  "versions": {
+    "3.14.5": {
+      "urls": [
+        "https://mirrors.huaweicloud.com/python/3.14.5/python-3.14.5-amd64.exe",
+        "https://www.python.org/ftp/python/3.14.5/python-3.14.5-amd64.exe"
+      ],
+      "arch": "x64",
+      "installer_type": "inno",
+      "install_args": [
+        "/quiet", "InstallAllUsers=1", "PrependPath=1",
+        "Include_test=0", "Include_launcher=1"
+      ],
+      "uninstall_args": ["/uninstall", "/quiet"],
+      "detection": {
+        "display_name": "Python 3.14",
+        "publisher": "Python Software Foundation"
+      },
+      "shortcut_candidates": [
+        "%USERPROFILE%\\Desktop\\Python 3.14.lnk",
+        "%PUBLIC%\\Desktop\\Python 3.14.lnk"
+      ],
+      "install_dir_candidates": [
+        "C:\\Program Files\\Python314",
+        "C:\\Users\\%USERNAME%\\AppData\\Local\\Programs\\Python\\Python314"
+      ]
+    }
+  }
+}

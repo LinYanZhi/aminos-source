@@ -1,0 +1,25 @@
+{
+  "name": "spacesniffer",
+  "display_name": "SpaceSniffer",
+  "description": "磁盘空间分析工具，通过树形图可视化硬盘空间使用情况，便携版无需安装。",
+  "category": "工具",
+  "homepage": "https://www.uderzo.it/main_products/space_sniffer/",
+  "default_version": "2.2.0.27",
+  "versions": {
+    "2.2.0.27": {
+      "urls": [
+        "https://www.uderzo.it/main_products/space_sniffer/files/spacesniffer_2_2_0_27_x64.zip"
+      ],
+      "arch": "x64",
+      "installer_type": "portable",
+      "install_args": [],
+      "detection": {
+        "display_name": "SpaceSniffer"
+      },
+      "shortcut_candidates": [
+        "%PUBLIC%\\Desktop\\SpaceSniffer.lnk",
+        "%USERPROFILE%\\Desktop\\SpaceSniffer.lnk"
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "microsoft-office",
+  "display_name": "Microsoft Office LTSC",
+  "aliases": ["office", "microsoft office", "office ltsc", "专业增强版"],
+  "description": "微软 Office 办公软件套件，包含 Word、Excel、PowerPoint、Outlook 等。",
+  "category": "办公",
+  "homepage": "https://www.microsoft.com/microsoft-365",
+  "default_version": "2024",
+  "versions": {
+    "2024": {
+      "urls": [
+        "https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/zh-cn/ProPlus2024Retail.img"
+      ],
+      "arch": "x64",
+      "installer_type": "custom",
+      "install_args": [],
+      "detection": {
+        "display_name": "Microsoft Office LTSC"
+      },
+      "install_dir_candidates": [
+        "C:\\Program Files\\Microsoft Office",
+        "C:\\Program Files (x86)\\Microsoft Office"
+      ]
+    }
+  }
+}

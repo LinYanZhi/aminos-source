@@ -1,0 +1,30 @@
+{
+  "name": "notepadpp",
+  "display_name": "Notepad++",
+  "aliases": ["notepad++", "npp"],
+  "description": "免费开源的源代码编辑器，支持 80+ 种编程语言的语法高亮。",
+  "category": "开发工具",
+  "homepage": "https://notepad-plus-plus.org/",
+  "default_version": "8.9.3",
+  "versions": {
+    "8.9.3": {
+      "urls": [
+        "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.3/npp.8.9.3.Installer.x64.exe"
+      ],
+      "arch": "x64",
+      "installer_type": "nsis",
+      "install_args": ["/S"],
+      "install_dir_candidates": [
+        "C:\\Program Files\\Notepad++"
+      ],
+      "detection": {
+        "display_name": "Notepad++",
+        "publisher": "Notepad++ Team"
+      },
+      "shortcut_candidates": [
+        "%PUBLIC%\\Desktop\\Notepad++.lnk",
+        "%USERPROFILE%\\Desktop\\Notepad++.lnk"
+      ]
+    }
+  }
+}

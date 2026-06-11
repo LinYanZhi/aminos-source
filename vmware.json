@@ -1,0 +1,32 @@
+{
+  "name": "vmware",
+  "display_name": "VMware Workstation",
+  "aliases": ["vmware", "vmware workstation", "vmware workstation pro"],
+  "description": "强大的桌面虚拟化软件，允许在一台物理机上运行多个虚拟机。",
+  "category": "开发工具",
+  "homepage": "https://www.vmware.com/products/workstation-pro.html",
+  "default_version": "17.6.3",
+  "versions": {
+    "17.6.3": {
+      "urls": [
+        "https://softwareupdate.vmware.com/cds/vmw-desktop/ws/17.6.3/24583834/windows/core/VMware-workstation-17.6.3-24583834.exe.tar",
+        "https://www.techpowerup.com/download/vmware-workstation-pro/"
+      ],
+      "arch": "x64",
+      "installer_type": "custom",
+      "install_args": ["/S", "/v", "/qn"],
+      "detection": {
+        "display_name": "VMware Workstation",
+        "publisher": "VMware"
+      },
+      "shortcut_candidates": [
+        "%PUBLIC%\\Desktop\\VMware Workstation.lnk",
+        "%USERPROFILE%\\Desktop\\VMware Workstation.lnk",
+        "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\VMware\\VMware Workstation.lnk"
+      ],
+      "install_dir_candidates": [
+        "C:\\Program Files (x86)\\VMware\\VMware Workstation"
+      ]
+    }
+  }
+}

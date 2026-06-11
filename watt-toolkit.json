@@ -1,0 +1,30 @@
+{
+  "name": "watt-toolkit",
+  "display_name": "Watt Toolkit",
+  "aliases": ["watt toolkit", "steam++", "steampp", "瓦特工具箱"],
+  "description": "一款功能强大的开源游戏工具箱，支持 Steam 加速、账号切换、库存管理等功能。",
+  "category": "工具",
+  "homepage": "https://steampp.net/",
+  "default_version": "latest",
+  "versions": {
+    "latest": {
+      "urls": [
+        "https://ghproxy.net/https://github.com/BeyondDimension/SteamTools/releases/latest/download/Steam++.Setup.exe"
+      ],
+      "arch": "x64",
+      "installer_type": "inno",
+      "install_args": ["/S"],
+      "detection": {
+        "display_name": "Watt Toolkit",
+        "publisher": "BeyondDimension"
+      },
+      "shortcut_candidates": [
+        "%PUBLIC%\\Desktop\\Watt Toolkit.lnk",
+        "%USERPROFILE%\\Desktop\\Watt Toolkit.lnk"
+      ],
+      "install_dir_candidates": [
+        "C:\\Program Files\\Watt Toolkit"
+      ]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "git",
+  "display_name": "Git",
+  "description": "Git for Windows。分布式版本控制系统。",
+  "category": "开发工具",
+  "homepage": "https://git-scm.com/",
+  "default_version": "2.54.0",
+  "versions": {
+    "2.54.0": {
+      "urls": [
+        "https://github.com/git-for-windows/git/releases/download/v2.54.0.windows.1/Git-2.54.0-64-bit.exe",
+        "https://mirrors.huaweicloud.com/git-for-windows/v2.54.0.windows.1/Git-2.54.0-64-bit.exe",
+        "https://npmmirror.com/mirrors/git-for-windows/v2.54.0.windows.1/Git-2.54.0-64-bit.exe"
+      ],
+      "arch": "x64",
+      "installer_type": "inno",
+      "install_args": [
+        "/VERYSILENT", "/NORESTART", "/NOCANCEL", "/SP-",
+        "/CLOSEAPPLICATIONS", "/RESTARTAPPLICATIONS",
+        "/COMPONENTS=icons,ext\\reg\\shellhere,assoc,assoc_sh"
+      ],
+      "uninstall_args": ["/VERYSILENT", "/NORESTART"],
+      "detection": {
+        "display_name": "Git",
+        "publisher": "Git"
+      },
+      "shortcut_candidates": [
+        "%USERPROFILE%\\Desktop\\Git Bash.lnk",
+        "%PUBLIC%\\Desktop\\Git Bash.lnk",
+        "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Git\\Git Bash.lnk"
+      ],
+      "install_dir_candidates": [
+        "C:\\Program Files\\Git",
+        "C:\\Program Files (x86)\\Git"
+      ],
+      "uninstall_key": "Git"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "sunlogin",
+  "display_name": "向日葵远程控制",
+  "aliases": ["向日葵", "sunlogin", "向日葵远程控制", "oray sunlogin"],
+  "description": "国内知名的远程控制软件，支持远程桌面、文件传输、远程运维等功能。",
+  "category": "工具",
+  "homepage": "https://sunlogin.oray.com/",
+  "default_version": "latest",
+  "versions": {
+    "latest": {
+      "urls": [
+        "https://dl.oray.com/sl/windows/AweSun_v16.5.0.30905_x64.exe"
+      ],
+      "arch": "x64",
+      "installer_type": "inno",
+      "install_args": ["/S"],
+      "detection": {
+        "display_name": "向日葵",
+        "publisher": "上海贝锐"
+      },
+      "shortcut_candidates": [
+        "%PUBLIC%\\Desktop\\向日葵远程控制.lnk",
+        "%USERPROFILE%\\Desktop\\向日葵远程控制.lnk",
+        "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\向日葵远程控制\\向日葵远程控制.lnk"
+      ],
+      "install_dir_candidates": [
+        "C:\\Program Files\\Sunlogin\\SunloginClient"
+      ]
+    }
+  }
+}

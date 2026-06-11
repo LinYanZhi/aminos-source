@@ -1,0 +1,31 @@
+{
+  "name": "dingtalk",
+  "display_name": "钉钉",
+  "aliases": ["dingtalk", "钉钉"],
+  "description": "阿里巴巴出品，专为中国企业打造的智能移动办公平台。",
+  "category": "社交",
+  "homepage": "https://www.dingtalk.com/",
+  "default_version": "latest",
+  "versions": {
+    "latest": {
+      "urls": [
+        "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v7.5.30.5179102.exe"
+      ],
+      "arch": "x64",
+      "installer_type": "inno",
+      "install_args": ["/S"],
+      "detection": {
+        "display_name": "钉钉",
+        "publisher": "阿里巴巴"
+      },
+      "shortcut_candidates": [
+        "%PUBLIC%\\Desktop\\钉钉.lnk",
+        "%USERPROFILE%\\Desktop\\钉钉.lnk",
+        "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\钉钉\\钉钉.lnk"
+      ],
+      "install_dir_candidates": [
+        "C:\\Program Files (x86)\\DingTalk"
+      ]
+    }
+  }
+}

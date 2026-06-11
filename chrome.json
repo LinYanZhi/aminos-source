@@ -1,0 +1,29 @@
+{
+  "name": "chrome",
+  "display_name": "Google Chrome",
+  "description": "Google 推出的快速、安全的现代网页浏览器。",
+  "category": "浏览器",
+  "homepage": "https://www.google.com/chrome/",
+  "default_version": "latest",
+  "versions": {
+    "latest": {
+      "urls": [
+        "https://dl.google.com/chrome/install/latest/chrome_installer.exe"
+      ],
+      "arch": "x64",
+      "installer_type": "msi",
+      "install_args": [],
+      "install_dir_candidates": [
+        "C:\\Program Files\\Google\\Chrome\\Application"
+      ],
+      "detection": {
+        "display_name": "Google Chrome",
+        "publisher": "Google LLC"
+      },
+      "shortcut_candidates": [
+        "%PUBLIC%\\Desktop\\Google Chrome.lnk",
+        "%USERPROFILE%\\Desktop\\Google Chrome.lnk"
+      ]
+    }
+  }
+}

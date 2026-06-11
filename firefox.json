@@ -1,0 +1,29 @@
+{
+  "name": "firefox",
+  "display_name": "Firefox",
+  "description": "Mozilla 推出的注重隐私和开放性的现代网页浏览器。",
+  "category": "浏览器",
+  "homepage": "https://www.mozilla.org/firefox/",
+  "default_version": "latest",
+  "versions": {
+    "latest": {
+      "urls": [
+        "https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=zh-CN"
+      ],
+      "arch": "x64",
+      "installer_type": "custom",
+      "install_args": [],
+      "install_dir_candidates": [
+        "C:\\Program Files\\Mozilla Firefox"
+      ],
+      "detection": {
+        "display_name": "Firefox",
+        "publisher": "Mozilla"
+      },
+      "shortcut_candidates": [
+        "%PUBLIC%\\Desktop\\Firefox.lnk",
+        "%USERPROFILE%\\Desktop\\Firefox.lnk"
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "pixpin",
+  "display_name": "PixPin",
+  "description": "功能强大的截图贴图工具，支持 OCR、长截图、录屏和标注。",
+  "category": "工具",
+  "homepage": "https://pixpin.cn",
+  "default_version": "3.0.8.0",
+  "versions": {
+    "3.0.8.0": {
+      "urls": [
+        "https://download.pixpinapp.com/PixPin_cn_zh-cn_3.0.8.0.exe"
+      ],
+      "arch": "x64",
+      "installer_type": "inno",
+      "install_args": ["/SILENT", "/NORESTART"],
+      "install_dir_candidates": [
+        "%LOCALAPPDATA%\\PixPin"
+      ],
+      "detection": {
+        "display_name": "PixPin"
+      },
+      "shortcut_candidates": [
+        "%PUBLIC%\\Desktop\\PixPin.lnk",
+        "%USERPROFILE%\\Desktop\\PixPin.lnk"
+      ]
+    }
+  }
+}

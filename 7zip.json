@@ -1,0 +1,31 @@
+{
+  "name": "7zip",
+  "display_name": "7-Zip",
+  "aliases": ["7-zip", "7z"],
+  "description": "免费开源的文件压缩/解压工具，支持 7z、ZIP、RAR 等多种格式。",
+  "category": "工具",
+  "homepage": "https://7-zip.org/",
+  "default_version": "26.01",
+  "versions": {
+    "26.01": {
+      "urls": [
+        "https://7-zip.org/a/7z2601-x64.exe",
+        "https://github.com/ip7z/7zip/releases/download/26.01/7z2601-x64.exe"
+      ],
+      "arch": "x64",
+      "installer_type": "nsis",
+      "install_args": ["/S"],
+      "install_dir_candidates": [
+        "C:\\Program Files\\7-Zip"
+      ],
+      "detection": {
+        "display_name": "7-Zip",
+        "publisher": "Igor Pavlov"
+      },
+      "shortcut_candidates": [
+        "%PUBLIC%\\Desktop\\7-Zip.lnk",
+        "%USERPROFILE%\\Desktop\\7-Zip.lnk"
+      ]
+    }
+  }
+}

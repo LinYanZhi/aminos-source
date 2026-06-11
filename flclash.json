@@ -1,0 +1,32 @@
+{
+  "name": "flclash",
+  "display_name": "FlClash",
+  "aliases": ["flclash"],
+  "description": "基于 Clash Meta 的多平台代理客户端，简洁易用，开源无广告。",
+  "category": "网络工具",
+  "homepage": "https://github.com/chen08209/FlClash",
+  "default_version": "0.8.93",
+  "versions": {
+    "0.8.93": {
+      "urls": [
+        "https://github.com/chen08209/FlClash/releases/download/v0.8.93/FlClash-0.8.93-windows-amd64-setup.exe",
+        "https://dl.p6p.net/FlClash/v0.8.93/FlClash-0.8.93-windows-amd64-setup.exe"
+      ],
+      "arch": "x64",
+      "installer_type": "nsis",
+      "install_args": ["/S"],
+      "detection": {
+        "display_name": "FlClash",
+        "publisher": "FlClash"
+      },
+      "shortcut_candidates": [
+        "%PUBLIC%\\Desktop\\FlClash.lnk",
+        "%USERPROFILE%\\Desktop\\FlClash.lnk",
+        "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\FlClash\\FlClash.lnk"
+      ],
+      "install_dir_candidates": [
+        "C:\\Program Files\\FlClash"
+      ]
+    }
+  }
+}
