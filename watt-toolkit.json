@@ -9,7 +9,9 @@
   "versions": {
     "latest": {
       "urls": [
-        "https://github.com/BeyondDimension/SteamTools/releases/latest/download/Steam++.Setup.exe"
+        "https://gitee.com/rmbgame/SteamTools/releases/download/3.1.0/Steam%20%20_v3.1.0_win_x64.exe",
+        "https://dd.soft9527.com/ali213/AhG0VLgvvxUvkvUcFee2WA",
+        "https://github.com/BeyondDimension/SteamTools/releases/download/3.1.0/Steam++_v3.1.0_win_x64.exe"
       ],
       "arch": "x64",
       "installer_type": "inno",

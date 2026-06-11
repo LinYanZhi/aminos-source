@@ -9,7 +9,7 @@
   "versions": {
     "latest": {
       "urls": [
-        "https://downloadfiles.pdfgear.com/releases/windows/pdfgear_setup_v2.1.12.exe"
+        "https://downloadfiles.pdfgear.com/releases/windows/pdfgear_setup_v2.1.16.exe"
       ],
       "arch": "x64",
       "installer_type": "inno",

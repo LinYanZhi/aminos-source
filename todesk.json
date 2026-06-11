@@ -9,7 +9,7 @@
   "versions": {
     "latest": {
       "urls": [
-        "https://update.todesk.com/windows/Todesk_latest.exe"
+        "https://dl.todesk.com/irrigation/ToDesk_4.9.7.1.exe"
       ],
       "arch": "x64",
       "installer_type": "inno",
