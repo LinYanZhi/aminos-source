@@ -8,7 +8,8 @@
   "versions": {
     "2.2.0.27": {
       "urls": [
-        "https://www.uderzo.it/main_products/space_sniffer/files/spacesniffer_2_2_0_27_x64.zip"
+        "https://www.uderzo.it/main_products/space_sniffer/files/spacesniffer_2_2_0_27_x64.zip",
+        "https://ghproxy.net/https://github.com/redtrillix/SpaceSniffer/releases/download/2.2.0.27/spacesniffer_2_2_0_27_x64.zip"
       ],
       "arch": "x64",
       "installer_type": "portable",

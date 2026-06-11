@@ -10,7 +10,8 @@
     "26.01": {
       "urls": [
         "https://7-zip.org/a/7z2601-x64.exe",
-        "https://github.com/ip7z/7zip/releases/download/26.01/7z2601-x64.exe"
+        "https://github.com/ip7z/7zip/releases/download/26.01/7z2601-x64.exe",
+        "https://ghproxy.net/https://github.com/ip7z/7zip/releases/download/26.01/7z2601-x64.exe"
       ],
       "arch": "x64",
       "installer_type": "nsis",
