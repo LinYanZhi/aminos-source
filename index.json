@@ -1,50 +1,134 @@
-{
-  "name": "aminos-source",
-  "version": 1,
-  "description": "aminos 官方软件源",
+﻿{
   "homepage": "https://github.com/LinYanZhi/aminos-source",
-  "files": [
-    "7zip.json",
-    "chrome.json",
-    "clash-verge.json",
-    "cursor.json",
-    "datagrip.json",
-    "dingtalk.json",
-    "edge.json",
-    "everything.json",
-    "feishu.json",
-    "firefox.json",
-    "flclash.json",
-    "git.json",
-    "huorong.json",
-    "iobitunlocker.json",
-    "microsoft-office.json",
-    "netease-music.json",
-    "notepadpp.json",
-    "nvm.json",
-    "obs.json",
-    "pdfgear.json",
-    "pixpin.json",
-    "potplayer.json",
-    "pycharm.json",
-    "python.json",
-    "snipaste.json",
-    "spacesniffer.json",
-    "steam.json",
-    "sunlogin.json",
-    "todesk.json",
-    "trae.json",
-    "ttime.json",
-    "utools.json",
-    "uuremote.json",
-    "visual-studio.json",
-    "vmware.json",
-    "vscode.json",
-    "watt-toolkit.json",
-    "wechat.json",
-    "wecom.json",
-    "wepe.json",
-    "wps.json",
-    "yingdao.json"
-  ]
+  "description": "aminos 官方软件源",
+  "name": "aminos-source",
+  "version": 2,
+  "files": {
+    "steam.json": {
+      "sha256": "b0d12eb9f98d19c202d210248200e81da303a7f3368c5244e8bd5f2f6603dbf6"
+    },
+    "7zip.json": {
+      "sha256": "316ec0aa7f9a0a8b1e523f63336596988543754bd88ebd14a4c4d7b171321739"
+    },
+    "vscode.json": {
+      "sha256": "161d1793a691c82dbf516406e50efdcfec99e00f8e644f68c7f577a44b01e155"
+    },
+    "trae.json": {
+      "sha256": "d75b3fe611412b583da821021a0871444fd0098df02bf44dea227c08e24eadb3"
+    },
+    "microsoft-office.json": {
+      "sha256": "36fb8c15333402f14fa06f6649595c484d1e82278a21b7499e81391a87b08b3a"
+    },
+    "watt-toolkit.json": {
+      "sha256": "6ef962823f9260a5e1ba65df2e7816e18816853965e48ebfd7c644b0817c5576"
+    },
+    "wps.json": {
+      "sha256": "c905d075edb1bbd4d886ca0bf91bcdeae86b1e0a104cf3751e35a90111db6641"
+    },
+    "wepe.json": {
+      "sha256": "2e8d33762b14b8960ead79e14dec69f0cfbbb5b304ccf63c1e662b38ad559747"
+    },
+    "firefox.json": {
+      "sha256": "3e3684873bafcc893673b2207a4da520e39e04304d71e9d41ed31ffecf66b46d"
+    },
+    "feishu.json": {
+      "sha256": "079405f91bcef018cf5bc0d1cc3b572a1f89123c2a359548ac3c9df35b18df7a"
+    },
+    "pdfgear.json": {
+      "sha256": "705320dbb73d6049132a41419558c8908c9d0bcf55641bc7737183ee22d0e9cf"
+    },
+    "everything.json": {
+      "sha256": "880946a9d6d7957511a58293c689876df3a3c1e50c682c5903cf15b42b044fdf"
+    },
+    "huorong.json": {
+      "sha256": "46ab69f0a69a072a06a30e6762363925ff24e4bb7b27a39b58a9c42831203993"
+    },
+    "spacesniffer.json": {
+      "sha256": "4f6a87b062ef0e5841bc74fc3798be2c06890e2d11d76d8382fa859174d401c6"
+    },
+    "datagrip.json": {
+      "sha256": "fcda19612ac2db974aba7ef2001891ede6363405804bc01bc99b6961d61f3e15"
+    },
+    "potplayer.json": {
+      "sha256": "dfe5ec4c00c66306caae1214a4b9d0ffa336195e6b82a268aa3ded89b8c921f9"
+    },
+    "pycharm.json": {
+      "sha256": "55e50fbf81b3087bdfcccefc73cce6f609d860f88f2bdd847ef87feb9a2666f7"
+    },
+    "flclash.json": {
+      "sha256": "9b8de086242ebf164827da3f67be50d40b6ff7ec1834533f70e2a00cff380e59"
+    },
+    "snipaste.json": {
+      "sha256": "bb9852eb8798bd7f59ab6ee9fbb2d07e18814a9558298bbd4b6c926f5f1f2a73"
+    },
+    "wechat.json": {
+      "sha256": "411bce3edc031c285d4d708b8d87db6fb2b0bfd2b268a925bb3ff1793abc4a80"
+    },
+    "edge.json": {
+      "sha256": "b3cab6e0385806da5b5e48440b313da9f04747f28e9b4f137ba9047ea0a52fc9"
+    },
+    "yingdao.json": {
+      "sha256": "146d09a5b8c5d85e747fabccf5202d22988fc3861ff9e00e97d135fb8b7cb241"
+    },
+    "sunlogin.json": {
+      "sha256": "b4561742b785ef5171e87b2af0a46ddd18f48efe5659e1fad5e4681d0d036848"
+    },
+    "wecom.json": {
+      "sha256": "be5599c93215dc569434c1d695b3e760f671ab311c32c14133ac71baff4f7502"
+    },
+    "notepadpp.json": {
+      "sha256": "c16df74064fd904d60e447272feab2d482a3d82bc1522428d748bc1977dfa3bf"
+    },
+    "todesk.json": {
+      "sha256": "100540a434b5aee6731fe51efe0062f294ff22eea686eec5fa19098e04801846"
+    },
+    "iobitunlocker.json": {
+      "sha256": "1eec9efbba1b8145d97bdc032d52c611d7ae043219ed93fc0f9b7fed7b62f727"
+    },
+    "ttime.json": {
+      "sha256": "e8464611f8033ec279bf2ca1eb91d899897efebb0922081fc6713bf54fed31b1"
+    },
+    "nvm.json": {
+      "sha256": "e5d39a79f41b76dc2a6cbc71bd9ae7b8202bfeaf1763775cbeda3ad89aef9a26"
+    },
+    "python.json": {
+      "sha256": "cb5b089179696d9c57170060c6df3471979ff17d0e31d43548a71e8d23d794ba"
+    },
+    "obs.json": {
+      "sha256": "7c55358972c79e38a1822b11c5af2e26aec11a1b82d5e3f87cbc9d3c1db939c8"
+    },
+    "vmware.json": {
+      "sha256": "facbfb678d10226c69e8c37475a089d4ad1844af73699833190a5450f4484b71"
+    },
+    "cursor.json": {
+      "sha256": "149e8cf6547a7a39d2031b9ed26d06da04fd8f9a1244018c936af8739596051a"
+    },
+    "uuremote.json": {
+      "sha256": "9d84ca98384f456c88fc8a22a35a4b238ed93c8cb3c417e3ae689d400b2d2174"
+    },
+    "pixpin.json": {
+      "sha256": "1271e190e56d6e3f5464aa0d998c5ff95eeb6ab223a963485ebef64a130ae0df"
+    },
+    "dingtalk.json": {
+      "sha256": "c041e21430a3df219ee04e8411a616f6074580696b0a9a8c3a8a53fda16d8d8e"
+    },
+    "clash-verge.json": {
+      "sha256": "235fcdae4a2423fcbe354828b91ffeadb90acf9cafb1de768272237f8472aa88"
+    },
+    "visual-studio.json": {
+      "sha256": "5cf0b1a0a1255698637b26922399aa3b3694d3880beed5c3d15a8a6248549fbe"
+    },
+    "utools.json": {
+      "sha256": "e8125d67dfc2a2790a3f9ab4c4c514702acecc7d762222b7e7fcc7114d6ab5d9"
+    },
+    "chrome.json": {
+      "sha256": "52de90fdc2d661d7620832b396eedd07a13b75198102108191b73bcf54213192"
+    },
+    "git.json": {
+      "sha256": "27c0f7c07304867393d7a13d3054a0234322e731b351bfaa82196ca60df5a28a"
+    },
+    "netease-music.json": {
+      "sha256": "f02ba8afc802b09600305e338c6f7ebdc2bf35db5d8ffbf789aa0071f29b4705"
+    }
+  }
 }
