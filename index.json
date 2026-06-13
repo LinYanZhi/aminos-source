@@ -130,6 +130,9 @@
     "netease-music.json": {
       "sha256": "f02ba8afc802b09600305e338c6f7ebdc2bf35db5d8ffbf789aa0071f29b4705"
     },
+    "aria2c.json": {
+      "sha256": "b3458613266ae52a5bd2e621598ab6cc598f37f7a636b42081c08acbc8420985"
+    },
     "ls.json": {
       "sha256": "32b2ec3d840a48fb8cac52103aa8cdf41b1a7865226efdc09b187a86e067764d"
     },
