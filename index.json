@@ -129,6 +129,12 @@
     },
     "netease-music.json": {
       "sha256": "f02ba8afc802b09600305e338c6f7ebdc2bf35db5d8ffbf789aa0071f29b4705"
+    },
+    "ls.json": {
+      "sha256": "32b2ec3d840a48fb8cac52103aa8cdf41b1a7865226efdc09b187a86e067764d"
+    },
+    "as.json": {
+      "sha256": "3f05233076cc987c5d5a8611f83a71fc72df58f4b20ef881df303c35abe4a883"
     }
   }
 }
