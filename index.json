@@ -138,6 +138,9 @@
     },
     "as.json": {
       "sha256": "3f05233076cc987c5d5a8611f83a71fc72df58f4b20ef881df303c35abe4a883"
+    },
+    "uv.json": {
+      "sha256": "8cbfacb346e2a396e67c75e927fa0d0b01ae861a02c0a32454f6d309772f3ce7"
     }
   }
 }
