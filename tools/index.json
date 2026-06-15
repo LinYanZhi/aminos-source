@@ -1,0 +1,17 @@
+﻿{
+    "version":  2,
+    "files":  {
+                  "aria2c.json":  {
+                                      "sha256":  "e35ccba3ad3de2b5f6ed60fb765285fad5835b749c34ba8655b35f2d9df67b11"
+                                  },
+                  "ls.json":  {
+                                  "sha256":  "16074fae0a7461f6fbbfda146a9f84e0d5d7d78a790d46e862db7f5c0f2913a6"
+                              },
+                  "uv.json":  {
+                                  "sha256":  "8d5c0aab0b39f29c10f149e25eff6754c3bad43bb9899b615217fc3b38e77e45"
+                              },
+                  "as.json":  {
+                                  "sha256":  "9c59b4432d8fff05b9beaee1bb9f922d15447190636a7ddcf723b1cc6607e562"
+                              }
+              }
+}

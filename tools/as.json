@@ -1,18 +1,13 @@
 {
   "name": "as",
-  "display_name": "as",
   "description": "aminos 包管理器自身",
-  "category": "工具",
-  "homepage": "https://github.com/LinYanZhi/ToolBox",
-  "kind": "self",
   "default_version": "0.1.0",
   "versions": {
     "0.1.0": {
       "urls": [
         "https://raw.githubusercontent.com/LinYanZhi/aminos-source/main/tools/as/as.zip"
       ],
-      "arch": "x64",
-      "installer_type": "tool"
+      "entry_point": "as.exe"
     }
   }
 }

@@ -1,60 +1,94 @@
 # Aminos Source
 
-aminos 的软件源定义仓库，供 [aminos](https://github.com/LinYanZhi/aminos) 命令行工具使用。
+aminos 的软件源定义仓库，供 [aminos](https://github.com/LinYanZhi/aminos) 包管理器使用。
 
 ## 目录结构
 
 ```
-source/
-├── index.json          # 源索引（供 as source update 拉取）
-├── 7zip.json           # 7-Zip
-├── chrome.json         # Google Chrome
-├── ...                 # 更多软件
+aminos-source/
+├── apps/             ← 第三方软件源定义
+│   ├── index.json          # 源索引
+│   ├── chrome.json         # Google Chrome
+│   ├── vscode.json         # Visual Studio Code
+│   └── ...
+└── tools/            ← 自研工具源定义
+    ├── index.json          # 工具索引
+    ├── ls.json             # ls 工具
+    ├── uv.json             # uv 工具
+    └── as/                 # 工具二进制 ZIP（被 JSON 引用）
+        └── as.zip
+```
+
+## 使用方式
+
+```cmd
+# 更新第三方软件源
+as env source update
+
+# 查看可用软件
+as list
+
+# 安装第三方软件
+as install chrome
+
+# 查看/安装自研工具
+as tool list
+as tool install ls
 ```
 
 ## 如何添加软件
 
-1. Fork 本仓库
-2. 参考现有 JSON 文件创建新的软件定义
-3. 更新 `index.json` 添加新文件
+### 第三方软件
+
+1. 在 `apps/` 目录下创建 `<name>.json`
+2. 更新 `apps/index.json` 添加对应的 SHA256
+3. 提交 PR
+
+### 自研工具
+
+1. 在 `tools/` 目录下创建 `<name>.json`
+2. 将二进制 ZIP 放到 `tools/<name>/<name>.zip`
+3. 更新 `tools/index.json` 添加对应的 SHA256
 4. 提交 PR
 
 ## JSON 格式
+
+### 第三方软件
 
 ```json
 {
   "name": "7zip",
   "display_name": "7-Zip",
-  "aliases": ["7-zip", "7z"],
   "description": "免费开源的文件压缩/解压工具",
   "category": "工具",
-  "homepage": "https://7-zip.org/",
   "default_version": "26.01",
   "versions": {
     "26.01": {
       "urls": ["https://7-zip.org/a/7z2601-x64.exe"],
-      "arch": "x64",
       "installer_type": "nsis",
       "install_args": ["/S"],
       "detection": {
-        "display_name": "7-Zip",
-        "publisher": "Igor Pavlov"
+        "display_name": "7-Zip"
       }
     }
   }
 }
 ```
 
-## 使用方式
+### 自研工具
 
-aminos 工具会自动从本仓库拉取软件定义：
-
-```cmd
-# 首次运行自动拉取
-as list
-
-# 手动更新源
-as source update
+```json
+{
+  "name": "ls",
+  "description": "增强版目录列表工具",
+  "default_version": "0.1.0",
+  "versions": {
+    "0.1.0": {
+      "urls": ["https://raw.githubusercontent.com/LinYanZhi/aminos-source/main/tools/ls/ls.zip"],
+      "entry_point": "ls.exe"
+    }
+  }
+}
 ```
 
 ## 许可证
