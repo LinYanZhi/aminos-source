@@ -57,10 +57,10 @@
         "%LOCALAPPDATA%\\Programs\\Python\\Python313"
       ]
     },
-    "3.12.12": {
+    "3.12.10": {
       "urls": [
-        "https://mirrors.huaweicloud.com/python/3.12.12/python-3.12.12-amd64.exe",
-        "https://www.python.org/ftp/python/3.12.12/python-3.12.12-amd64.exe"
+        "https://mirrors.huaweicloud.com/python/3.12.10/python-3.12.10-amd64.exe",
+        "https://www.python.org/ftp/python/3.12.10/python-3.12.10-amd64.exe"
       ],
       "arch": "x64",
       "installer_type": "inno",
@@ -82,10 +82,10 @@
         "%LOCALAPPDATA%\\Programs\\Python\\Python312"
       ]
     },
-    "3.11.11": {
+    "3.11.9": {
       "urls": [
-        "https://mirrors.huaweicloud.com/python/3.11.11/python-3.11.11-amd64.exe",
-        "https://www.python.org/ftp/python/3.11.11/python-3.11.11-amd64.exe"
+        "https://mirrors.huaweicloud.com/python/3.11.9/python-3.11.9-amd64.exe",
+        "https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe"
       ],
       "arch": "x64",
       "installer_type": "inno",
@@ -107,10 +107,10 @@
         "%LOCALAPPDATA%\\Programs\\Python\\Python311"
       ]
     },
-    "3.10.16": {
+    "3.10.11": {
       "urls": [
-        "https://mirrors.huaweicloud.com/python/3.10.16/python-3.10.16-amd64.exe",
-        "https://www.python.org/ftp/python/3.10.16/python-3.10.16-amd64.exe"
+        "https://mirrors.huaweicloud.com/python/3.10.11/python-3.10.11-amd64.exe",
+        "https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe"
       ],
       "arch": "x64",
       "installer_type": "inno",
@@ -132,10 +132,10 @@
         "%LOCALAPPDATA%\\Programs\\Python\\Python310"
       ]
     },
-    "3.9.21": {
+    "3.9.13": {
       "urls": [
-        "https://mirrors.huaweicloud.com/python/3.9.21/python-3.9.21-amd64.exe",
-        "https://www.python.org/ftp/python/3.9.21/python-3.9.21-amd64.exe"
+        "https://mirrors.huaweicloud.com/python/3.9.13/python-3.9.13-amd64.exe",
+        "https://www.python.org/ftp/python/3.9.13/python-3.9.13-amd64.exe"
       ],
       "arch": "x64",
       "installer_type": "inno",
