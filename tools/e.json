@@ -1,0 +1,13 @@
+{
+  "name": "e",
+  "description": "环境变量查看器 / 路径打开器",
+  "default_version": "0.0.1",
+  "versions": {
+    "0.0.1": {
+      "urls": [
+        "https://raw.githubusercontent.com/LinYanZhi/aminos-source/main/tools/e/e.zip"
+      ],
+      "entry_point": "e.exe"
+    }
+  }
+}
