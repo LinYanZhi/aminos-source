@@ -26,6 +26,14 @@
         "%PUBLIC%\\Desktop\\nvm.lnk",
         "%USERPROFILE%\\Desktop\\nvm.lnk"
       ]
+    },
+    "1.2.2-noinstall": {
+      "urls": [
+        "https://github.com/coreybutler/nvm-windows/releases/download/1.2.2/nvm-noinstall.zip"
+      ],
+      "arch": "x64",
+      "installer_type": "portable",
+      "entry_point": "nvm.exe"
     }
   }
 }
