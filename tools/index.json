@@ -7,9 +7,6 @@
                   "ls.json":  {
                                   "sha256":  "7f45a1997cc6377233a460a601f7534940ed99ac0b284f000a1fa25b67ef7a3a"
                               },
-                  "e.json":  {
-                                 "sha256":  "ce72cbf54ba90b876228cf4a00411fb9bcf2db2c87029071e1c008b45bda44f6"
-                             },
                   "as.json":  {
                                   "sha256":  "32b4a01f4ba6420189f335f116cc4bafdea388e28e163e1e4e2c606c06755411"
                               },
@@ -20,6 +17,12 @@
                                   "sha256":  ""
                               },
                   "eza.json": {
+                                  "sha256":  ""
+                              },
+                  "pp.json": {
+                                  "sha256":  ""
+                              },
+                  "ss.json": {
                                   "sha256":  ""
                               }
               }
