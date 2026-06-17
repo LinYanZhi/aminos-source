@@ -7,7 +7,8 @@
       "urls": [
         "https://raw.githubusercontent.com/LinYanZhi/aminos-source/main/tools/e/e.zip"
       ],
-      "entry_point": "e.exe"
+      "entry_point": "e.exe",
+      "sha256": "e8de044d1ba1fa334d8b8a6fe25f14fe2c2067674fe95903fd23fb0c4eac0592"
     }
   }
 }
