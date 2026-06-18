@@ -1,0 +1,23 @@
+{
+    "version":  2,
+    "files":  {
+                  "cursor.json":  {
+                                      "sha256":  "149e8cf6547a7a39d2031b9ed26d06da04fd8f9a1244018c936af8739596051a"
+                                  },
+                  "datagrip.json":  {
+                                        "sha256":  "fcda19612ac2db974aba7ef2001891ede6363405804bc01bc99b6961d61f3e15"
+                                    },
+                  "pycharm.json":  {
+                                       "sha256":  "55e50fbf81b3087bdfcccefc73cce6f609d860f88f2bdd847ef87feb9a2666f7"
+                                   },
+                  "visual-studio.json":  {
+                                             "sha256":  "5cf0b1a0a1255698637b26922399aa3b3694d3880beed5c3d15a8a6248549fbe"
+                                         },
+                  "vmware.json":  {
+                                      "sha256":  "facbfb678d10226c69e8c37475a089d4ad1844af73699833190a5450f4484b71"
+                                  },
+                  "yingdao.json":  {
+                                       "sha256":  "146d09a5b8c5d85e747fabccf5202d22988fc3861ff9e00e97d135fb8b7cb241"
+                                   }
+              }
+}
