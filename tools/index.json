@@ -1,29 +1,29 @@
 {
-    "version":  2,
-    "files":  {
-                  "aria2c.json":  {
-                                      "sha256":  "e35ccba3ad3de2b5f6ed60fb765285fad5835b749c34ba8655b35f2d9df67b11"
-                                  },
-                  "ls.json":  {
-                                  "sha256":  "7f45a1997cc6377233a460a601f7534940ed99ac0b284f000a1fa25b67ef7a3a"
-                              },
-                  "as.json":  {
-                                  "sha256":  "32b4a01f4ba6420189f335f116cc4bafdea388e28e163e1e4e2c606c06755411"
-                              },
-                  "uv.json":  {
-                                  "sha256":  "8d5c0aab0b39f29c10f149e25eff6754c3bad43bb9899b615217fc3b38e77e45"
-                              },
-                  "lsd.json": {
-                                  "sha256":  ""
-                              },
-                  "eza.json": {
-                                  "sha256":  ""
-                              },
-                  "pp.json": {
-                                  "sha256":  ""
-                              },
-                  "ss.json": {
-                                  "sha256":  ""
-                              }
-              }
+  "version": 2,
+  "files": {
+    "aria2c.json": {
+      "sha256": "e35ccba3ad3de2b5f6ed60fb765285fad5835b749c34ba8655b35f2d9df67b11"
+    },
+    "ls.json": {
+      "sha256": "7f45a1997cc6377233a460a601f7534940ed99ac0b284f000a1fa25b67ef7a3a"
+    },
+    "as.json": {
+      "sha256": "32b4a01f4ba6420189f335f116cc4bafdea388e28e163e1e4e2c606c06755411"
+    },
+    "uv.json": {
+      "sha256": "8d5c0aab0b39f29c10f149e25eff6754c3bad43bb9899b615217fc3b38e77e45"
+    },
+    "lsd.json": {
+      "sha256": ""
+    },
+    "eza.json": {
+      "sha256": ""
+    },
+    "pp.json": {
+      "sha256": ""
+    },
+    "ss.json": {
+      "sha256": ""
+    }
+  }
 }

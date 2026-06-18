@@ -1,0 +1,17 @@
+﻿{
+    "version":  2,
+    "files":  {
+                  "feishu.json":  {
+                                      "sha256":  "079405f91bcef018cf5bc0d1cc3b572a1f89123c2a359548ac3c9df35b18df7a"
+                                  },
+                  "wechat.json":  {
+                                      "sha256":  "411bce3edc031c285d4d708b8d87db6fb2b0bfd2b268a925bb3ff1793abc4a80"
+                                  },
+                  "dingtalk.json":  {
+                                        "sha256":  "c041e21430a3df219ee04e8411a616f6074580696b0a9a8c3a8a53fda16d8d8e"
+                                    },
+                  "wecom.json":  {
+                                     "sha256":  "be5599c93215dc569434c1d695b3e760f671ab311c32c14133ac71baff4f7502"
+                                 }
+              }
+}

@@ -1,0 +1,17 @@
+﻿{
+    "version":  2,
+    "files":  {
+                  "everything.json":  {
+                                          "sha256":  "880946a9d6d7957511a58293c689876df3a3c1e50c682c5903cf15b42b044fdf"
+                                      },
+                  "spacesniffer.json":  {
+                                            "sha256":  "a5f4d098f30206c8a823deede9a3881e74a9954709cec978e8cc2c07fae79b9b"
+                                        },
+                  "wepe.json":  {
+                                    "sha256":  "2e8d33762b14b8960ead79e14dec69f0cfbbb5b304ccf63c1e662b38ad559747"
+                                },
+                  "iobitunlocker.json":  {
+                                             "sha256":  "1eec9efbba1b8145d97bdc032d52c611d7ae043219ed93fc0f9b7fed7b62f727"
+                                         }
+              }
+}

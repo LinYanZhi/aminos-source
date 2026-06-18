@@ -1,0 +1,17 @@
+﻿{
+    "version":  2,
+    "files":  {
+                  "obs.json":  {
+                                   "sha256":  "7c55358972c79e38a1822b11c5af2e26aec11a1b82d5e3f87cbc9d3c1db939c8"
+                               },
+                  "netease-music.json":  {
+                                             "sha256":  "ba4408e6b29fff1e9f0080de852cddd54b20f3162008d3c69e8543187023f5ac"
+                                         },
+                  "potplayer.json":  {
+                                         "sha256":  "dfe5ec4c00c66306caae1214a4b9d0ffa336195e6b82a268aa3ded89b8c921f9"
+                                     },
+                  "steam.json":  {
+                                     "sha256":  "b0d12eb9f98d19c202d210248200e81da303a7f3368c5244e8bd5f2f6603dbf6"
+                                 }
+              }
+}

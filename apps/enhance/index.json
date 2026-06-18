@@ -1,0 +1,20 @@
+﻿{
+    "version":  2,
+    "files":  {
+                  "ttime.json":  {
+                                     "sha256":  "e8464611f8033ec279bf2ca1eb91d899897efebb0922081fc6713bf54fed31b1"
+                                 },
+                  "utools.json":  {
+                                      "sha256":  "e8125d67dfc2a2790a3f9ab4c4c514702acecc7d762222b7e7fcc7114d6ab5d9"
+                                  },
+                  "snipaste.json":  {
+                                        "sha256":  "a4766904fbb23e176b5f4fb1205f839f201a87e72092a52ada98c1e2c74104d4"
+                                    },
+                  "7zip.json":  {
+                                    "sha256":  "316ec0aa7f9a0a8b1e523f63336596988543754bd88ebd14a4c4d7b171321739"
+                                },
+                  "pixpin.json":  {
+                                      "sha256":  "1271e190e56d6e3f5464aa0d998c5ff95eeb6ab223a963485ebef64a130ae0df"
+                                  }
+              }
+}

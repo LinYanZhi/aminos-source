@@ -1,0 +1,11 @@
+﻿{
+    "version":  2,
+    "files":  {
+                  "git.json":  {
+                                   "sha256":  "27c0f7c07304867393d7a13d3054a0234322e731b351bfaa82196ca60df5a28a"
+                               },
+                  "yingdao.json":  {
+                                       "sha256":  "146d09a5b8c5d85e747fabccf5202d22988fc3861ff9e00e97d135fb8b7cb241"
+                                   }
+              }
+}

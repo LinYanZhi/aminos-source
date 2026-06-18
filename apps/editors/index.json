@@ -1,0 +1,17 @@
+﻿{
+    "version":  2,
+    "files":  {
+                  "vscode.json":  {
+                                      "sha256":  "161d1793a691c82dbf516406e50efdcfec99e00f8e644f68c7f577a44b01e155"
+                                  },
+                  "cursor.json":  {
+                                      "sha256":  "149e8cf6547a7a39d2031b9ed26d06da04fd8f9a1244018c936af8739596051a"
+                                  },
+                  "trae.json":  {
+                                    "sha256":  "d75b3fe611412b583da821021a0871444fd0098df02bf44dea227c08e24eadb3"
+                                },
+                  "notepadpp.json":  {
+                                         "sha256":  "c16df74064fd904d60e447272feab2d482a3d82bc1522428d748bc1977dfa3bf"
+                                     }
+              }
+}

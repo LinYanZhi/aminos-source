@@ -1,0 +1,11 @@
+﻿{
+    "version":  2,
+    "files":  {
+                  "nvm.json":  {
+                                   "sha256":  "793bef29c311ad4aa6e004c97d45458d77dafefa7e996817e54c5ede49f34f16"
+                               },
+                  "python.json":  {
+                                      "sha256":  "a1ad5740a6b660ee4e7d5ef7133416cdaaeff961da8ddd5fdb0cba6eace771d0"
+                                  }
+              }
+}

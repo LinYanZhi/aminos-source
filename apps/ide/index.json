@@ -1,0 +1,14 @@
+﻿{
+    "version":  2,
+    "files":  {
+                  "visual-studio.json":  {
+                                             "sha256":  "5cf0b1a0a1255698637b26922399aa3b3694d3880beed5c3d15a8a6248549fbe"
+                                         },
+                  "datagrip.json":  {
+                                        "sha256":  "fcda19612ac2db974aba7ef2001891ede6363405804bc01bc99b6961d61f3e15"
+                                    },
+                  "pycharm.json":  {
+                                       "sha256":  "55e50fbf81b3087bdfcccefc73cce6f609d860f88f2bdd847ef87feb9a2666f7"
+                                   }
+              }
+}

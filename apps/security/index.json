@@ -1,0 +1,11 @@
+﻿{
+    "version":  2,
+    "files":  {
+                  "watt-toolkit.json":  {
+                                            "sha256":  "6ef962823f9260a5e1ba65df2e7816e18816853965e48ebfd7c644b0817c5576"
+                                        },
+                  "huorong.json":  {
+                                       "sha256":  "46ab69f0a69a072a06a30e6762363925ff24e4bb7b27a39b58a9c42831203993"
+                                   }
+              }
+}
