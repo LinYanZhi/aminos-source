@@ -9,7 +9,7 @@
   "versions": {
     "latest": {
       "urls": [
-        "http://music.163.com/api/pc/download/latest"
+        "https://d8.music.126.net/dmusic2/NeteaseCloudMusic_Music_official_3.1.35.205293_64.exe"
       ],
       "arch": "x64",
       "installer_type": "nsis",
