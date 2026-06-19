@@ -11,6 +11,7 @@
     "category": "影音",
     "homepage": "https://music.163.com",
     "color": "red",
+    "downloader": "ureq",
     "default_version": "latest",
     "versions": {
         "latest": {

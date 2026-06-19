@@ -11,6 +11,7 @@
     "category": "工具",
     "homepage": "https://sunlogin.oray.com/",
     "color": "green",
+    "downloader": "ureq",
     "default_version": "latest",
     "versions": {
         "latest": {
