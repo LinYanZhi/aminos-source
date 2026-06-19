@@ -6,6 +6,7 @@
         "baidu cloud",
         "baiduyun",
         "baidu pan",
+        "baidu",
         "bd",
         "bdwp"
     ],
@@ -13,9 +14,9 @@
     "category": "效率增强",
     "homepage": "https://pan.baidu.com",
     "versions": {
-        "8.4.8.102": {
+        "8.5.2.102": {
             "urls": [
-                "https://issuepcdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_8.4.8.102.exe",
+                "https://issuepcdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_8.5.2.102.exe",
                 "https://pan.baidu.com/download"
             ],
             "arch": "x64",
