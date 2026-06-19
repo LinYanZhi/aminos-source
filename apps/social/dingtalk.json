@@ -9,7 +9,7 @@
     "category": "社交",
     "homepage": "https://www.dingtalk.com/",
     "color": "blue",
-    "downloader": "ureq",
+    "downloader": "rust-ureq",
     "default_version": "latest",
     "versions": {
         "latest": {

@@ -11,7 +11,7 @@
     "category": "工具",
     "homepage": "https://sunlogin.oray.com/",
     "color": "green",
-    "downloader": "ureq",
+    "downloader": "rust-ureq",
     "default_version": "latest",
     "versions": {
         "latest": {
