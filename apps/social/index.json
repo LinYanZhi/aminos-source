@@ -2,16 +2,16 @@
     "version":  2,
     "files":  {
                   "feishu.json":  {
-                                      "sha256":  "673662d5c11b79d971268dc1e9ba04df62cfd12aaab9de0f17f78d2cbc28e5d8"
+                                      "sha256":  "6405e6148e28aa559d7c3f5736c55602baaf51e0aa347bec97708644c1ae0350"
                                   },
                   "wechat.json":  {
-                                      "sha256":  "a423d9ca0d79331bf194f972f20d13a6553b8bfd68f3728b48ccb2fa96478475"
+                                      "sha256":  "e6b48a9a59b217741092a0fad57078cc5945cc5eb88982c215fa69af0bac40db"
                                   },
                   "dingtalk.json":  {
-                                        "sha256":  "4c6e0f77e3d63c585d4719f84394c87ebe794bc2a2f46e7989ad9ee569c7504f"
+                                        "sha256":  "445fd9b21175f921f55982a64640e70ba743f21620337bc61148ef504dfcdf4d"
                                     },
                   "wecom.json":  {
-                                     "sha256":  "d2aecd4f0501392d97c22482e7f176531bdf309ea89778032cebdd5c7c6e1089"
+                                     "sha256":  "395e848c321748f98ae308ce47b2ae1a610670bec6913868f94e13824bb54cfa"
                                  }
               }
 }

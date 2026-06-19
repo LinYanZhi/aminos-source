@@ -1,7 +1,6 @@
 {
     "name": "aria2c",
     "description": "多协议多线程命令行下载工具",
-    "default_version": "1.37.0",
     "versions": {
         "1.37.0": {
             "urls": [

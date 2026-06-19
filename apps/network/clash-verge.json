@@ -9,7 +9,6 @@
     "description": "基于 Clash 内核的跨平台代理客户端，简洁易用的图形界面。",
     "category": "网络工具",
     "homepage": "https://github.com/clash-verge-rev/clash-verge-rev",
-    "default_version": "2.4.4",
     "versions": {
         "2.4.4": {
             "urls": [

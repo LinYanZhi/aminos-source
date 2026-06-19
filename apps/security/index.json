@@ -2,10 +2,10 @@
     "version":  2,
     "files":  {
                   "watt-toolkit.json":  {
-                                            "sha256":  "446a6a31c2f9c998be9499bdd2c970ff60eec56f4c3a8dccd7fcadf29a7ddaa7"
+                                            "sha256":  "984a5e380ce8525e49320311f8bb54b7ef7b4ba0b71a957c4cb4791ec5f4382f"
                                         },
                   "huorong.json":  {
-                                       "sha256":  "b764bd914a92eaee6d05202f3c8de3ad7492064ebfc6fef4ac0660707722f953"
+                                       "sha256":  "c1b0e37f97acad8140927a9aebeab13e3a8f56def47742b495ede299f77632a1"
                                    }
               }
 }

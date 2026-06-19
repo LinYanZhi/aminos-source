@@ -1,4 +1,4 @@
-{
+﻿{
     "name": "python",
     "display_name": "Python",
     "aliases": [
@@ -8,7 +8,6 @@
     "description": "Python 编程语言（Windows 官方安装版）。",
     "category": "开发工具",
     "homepage": "https://www.python.org/",
-    "default_version": "3.14.5",
     "versions": {
         "3.14.5": {
             "urls": [
@@ -23,10 +22,6 @@
                 "PrependPath=1",
                 "Include_test=0",
                 "Include_launcher=1"
-            ],
-            "uninstall_args": [
-                "/uninstall",
-                "/quiet"
             ],
             "detection": {
                 "display_name": "Python 3.14",
@@ -55,10 +50,6 @@
                 "Include_test=0",
                 "Include_launcher=1"
             ],
-            "uninstall_args": [
-                "/uninstall",
-                "/quiet"
-            ],
             "detection": {
                 "display_name": "Python 3.13",
                 "publisher": "Python Software Foundation"
@@ -85,10 +76,6 @@
                 "PrependPath=1",
                 "Include_test=0",
                 "Include_launcher=1"
-            ],
-            "uninstall_args": [
-                "/uninstall",
-                "/quiet"
             ],
             "detection": {
                 "display_name": "Python 3.12",
@@ -117,10 +104,6 @@
                 "Include_test=0",
                 "Include_launcher=1"
             ],
-            "uninstall_args": [
-                "/uninstall",
-                "/quiet"
-            ],
             "detection": {
                 "display_name": "Python 3.11",
                 "publisher": "Python Software Foundation"
@@ -147,10 +130,6 @@
                 "PrependPath=1",
                 "Include_test=0",
                 "Include_launcher=1"
-            ],
-            "uninstall_args": [
-                "/uninstall",
-                "/quiet"
             ],
             "detection": {
                 "display_name": "Python 3.10",
@@ -179,10 +158,6 @@
                 "Include_test=0",
                 "Include_launcher=1"
             ],
-            "uninstall_args": [
-                "/uninstall",
-                "/quiet"
-            ],
             "detection": {
                 "display_name": "Python 3.9",
                 "publisher": "Python Software Foundation"
@@ -210,10 +185,6 @@
                 "Include_test=0",
                 "Include_launcher=1"
             ],
-            "uninstall_args": [
-                "/uninstall",
-                "/quiet"
-            ],
             "detection": {
                 "display_name": "Python 3.8",
                 "publisher": "Python Software Foundation"
@@ -240,10 +211,6 @@
                 "PrependPath=1",
                 "Include_test=0",
                 "Include_launcher=1"
-            ],
-            "uninstall_args": [
-                "/uninstall",
-                "/quiet"
             ],
             "detection": {
                 "display_name": "Python 3.7",

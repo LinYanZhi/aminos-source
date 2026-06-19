@@ -10,7 +10,6 @@
     "description": "国产 RPA 自动化工具，支持桌面软件、网页、Excel 等自动化操作。",
     "category": "开发工具",
     "homepage": "https://www.yingdao.com/",
-    "default_version": "latest",
     "versions": {
         "latest": {
             "urls": [

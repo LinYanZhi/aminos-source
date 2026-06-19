@@ -7,7 +7,6 @@
     "description": "Node.js 版本管理器（Windows 版），可安装和切换多个 Node.js 版本。",
     "category": "开发工具",
     "homepage": "https://github.com/coreybutler/nvm-windows",
-    "default_version": "1.2.2",
     "versions": {
         "1.2.2": {
             "urls": [

@@ -7,7 +7,6 @@
     "description": "基于 Clash Meta 的多平台代理客户端，简洁易用，开源无广告。",
     "category": "网络工具",
     "homepage": "https://github.com/chen08209/FlClash",
-    "default_version": "0.8.93",
     "versions": {
         "0.8.93": {
             "urls": [

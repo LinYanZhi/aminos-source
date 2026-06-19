@@ -2,13 +2,13 @@
     "version":  2,
     "files":  {
                   "visual-studio.json":  {
-                                             "sha256":  "54ed7ef387478342936fb8e31d939673e537957d427b0425e084c644cef2e8f6"
+                                             "sha256":  "1ca5b890b74770c17a86ce25fb5ebd196716ff5bb9cb7a676ad5441213713665"
                                          },
                   "datagrip.json":  {
-                                        "sha256":  "c2b2917dc049162382a1f9b74042c4bbb28cf5a7b68266d69be56de1e9cb42bc"
+                                        "sha256":  "7d48bf624a235a2e56fee304f84c349a3b507bbac058ead1f6a0d7108e02ce2f"
                                     },
                   "pycharm.json":  {
-                                       "sha256":  "9df0f38eb7c8e5dbdb2249b74d728ab9f95ccd54cb63f545c4244a9792ab7d29"
+                                       "sha256":  "a858e73d490c98c2a7f6ab19c3e6e32b8822f84a845bb55aa4f90022907bc17d"
                                    }
               }
 }

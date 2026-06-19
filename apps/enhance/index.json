@@ -2,19 +2,19 @@
     "version":  2,
     "files":  {
                   "ttime.json":  {
-                                     "sha256":  "c48fd80f9647cef792f151bc70aefe74e49f386e986e52ca44193f857e7fb6d2"
+                                     "sha256":  "a3506888984ee6b17bf2c57170902a126135bfdaa92a4b6f977130410f2f2aa2"
                                  },
                   "utools.json":  {
-                                      "sha256":  "ce9a48b9c816613376cb7f66848eed8b6e94c0f8653197b55450883fac9e7344"
+                                      "sha256":  "14dd4653f2df729ccb83ae8cc7a227966b8c01bf931221d7990ae51683cf0ed2"
                                   },
                   "snipaste.json":  {
-                                        "sha256":  "1153c9e67283c6bde366a2732dea3a4959df034c0e90833cc6c128444bf68ef6"
+                                        "sha256":  "950dd4b13897ea8ecdb8460ac55956046a0f1e518706c7a98cea727669f59071"
                                     },
                   "7zip.json":  {
-                                    "sha256":  "80f3dd84fbb309ddd395fb0efac80cb0cc2259b7bc67d09132e1b75fcea1b9cb"
+                                    "sha256":  "65382a9116cc6d2e7068532cda3078cef6c4a23c9efad57bea9809bf905954be"
                                 },
                   "pixpin.json":  {
-                                      "sha256":  "1d685bb41adbc752a7843361f67d8cf7d5dc3bd8fffe7d9230cb24b734a8110c"
+                                      "sha256":  "7861c748c81f354acfc618280e1a8650d71a6e36ad831071521beca0af24f28d"
                                   }
               }
 }

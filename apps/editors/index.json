@@ -2,16 +2,16 @@
     "version":  2,
     "files":  {
                   "vscode.json":  {
-                                      "sha256":  "3d7caadc7d86dee7d358adf8109ef9ed012783db1ef61b5b9b6d12680f6a6679"
+                                      "sha256":  "17dac62d2e71a31c17f2b563299a5b342a211eb48e06bf1181c0f552938fbeac"
                                   },
                   "cursor.json":  {
-                                      "sha256":  "f8969f88cc0615988a60e02250320207723bf9d06237823eae5aed6723174b0a"
+                                      "sha256":  "40bc0812217fe37821cde49fb6ac38728b3cc72abc0dc9cf70c94cbc10bb1e82"
                                   },
                   "trae.json":  {
-                                    "sha256":  "e670915177f00954ac84f1a390882ca74b6e997f2bd1cdd70fa757f5804de7a0"
+                                    "sha256":  "0532825c801fa3ff40e52277ea0fdc7e3472d6db6e9be609a3a66ebf1039c941"
                                 },
                   "notepadpp.json":  {
-                                         "sha256":  "47040a69e9d73dac790bb4e89bb3907c75e3001586307061c7bdd6c208a0058e"
+                                         "sha256":  "d58845544d068473a649c007b8bf97ce67205fc29f7219b2b427d27d71b70cdb"
                                      }
               }
 }

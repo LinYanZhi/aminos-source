@@ -1,7 +1,6 @@
 {
     "name": "eza",
     "description": "eza — 现代化的 ls 替代品，支持颜色、图标、Git 集成、超链接和树形视图",
-    "default_version": "0.21.4",
     "versions": {
         "0.21.4": {
             "urls": [

@@ -1,10 +1,9 @@
-{
+﻿{
     "name": "git",
     "display_name": "Git",
     "description": "Git for Windows。分布式版本控制系统。",
     "category": "开发工具",
     "homepage": "https://git-scm.com/",
-    "default_version": "2.54.0",
     "versions": {
         "2.54.0": {
             "urls": [
@@ -22,10 +21,6 @@
                 "/CLOSEAPPLICATIONS",
                 "/RESTARTAPPLICATIONS",
                 "/COMPONENTS=icons,ext\\reg\\shellhere,assoc,assoc_sh"
-            ],
-            "uninstall_args": [
-                "/VERYSILENT",
-                "/NORESTART"
             ],
             "detection": {
                 "display_name": "Git",

@@ -4,7 +4,6 @@
     "description": "功能强大的截图贴图工具，支持 OCR、长截图、录屏和标注。",
     "category": "工具",
     "homepage": "https://pixpin.cn",
-    "default_version": "3.0.8.0",
     "versions": {
         "3.0.8.0": {
             "urls": [

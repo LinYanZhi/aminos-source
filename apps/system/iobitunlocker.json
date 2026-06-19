@@ -7,7 +7,6 @@
     "description": "文件解锁工具，解决「文件被占用」无法删除、移动或重命名的问题。",
     "category": "工具",
     "homepage": "https://www.iobitunlocker.com",
-    "default_version": "1.3.0",
     "versions": {
         "1.3.0": {
             "urls": [

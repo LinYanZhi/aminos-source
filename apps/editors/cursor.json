@@ -8,7 +8,6 @@
     "description": "AI-first 代码编辑器，基于 VS Code 构建，内置 AI 辅助编程功能。",
     "category": "开发工具",
     "homepage": "https://cursor.com/",
-    "default_version": "latest",
     "versions": {
         "latest": {
             "urls": [

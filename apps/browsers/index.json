@@ -2,13 +2,13 @@
     "version":  2,
     "files":  {
                   "chrome.json":  {
-                                      "sha256":  "f75fc4dd98d0b27223403a322ceb72c955148b29d392675df78de95705506a2b"
+                                      "sha256":  "851897a3aeabce30318235a8732f5387fcecfd400613e70ec1507b18f48c36b9"
                                   },
                   "firefox.json":  {
-                                       "sha256":  "9deaf820012a11c272e25e03658e46650c6661cdecc4b5618141bdb8074aa45e"
+                                       "sha256":  "bcd4c610735730acc082e7083becd8d490470f0dad07fe2222305d632e18d70e"
                                    },
                   "edge.json":  {
-                                    "sha256":  "2ccae12a5f66e1a12aefdb3eef27076e22a0eb7b7da518a2341a719c999e9aa5"
+                                    "sha256":  "dd2420ebe984047c60ce8fe27bd9a606cf18ca45ecae7abb5ca5c2687074504d"
                                 }
               }
 }

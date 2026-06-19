@@ -9,7 +9,6 @@
     "description": "微软推出的功能强大的集成开发环境（IDE），支持多种编程语言。",
     "category": "开发工具",
     "homepage": "https://visualstudio.microsoft.com/",
-    "default_version": "2026",
     "versions": {
         "2026": {
             "urls": [

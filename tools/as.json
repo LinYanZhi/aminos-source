@@ -1,7 +1,6 @@
 {
     "name": "as",
     "description": "aminos 包管理器自身",
-    "default_version": "0.0.1",
     "versions": {
         "0.0.1": {
             "urls": [

@@ -9,7 +9,6 @@
     "category": "社交",
     "homepage": "https://www.dingtalk.com/",
     "downloader": "rust-ureq",
-    "default_version": "latest",
     "versions": {
         "latest": {
             "urls": [

@@ -10,7 +10,6 @@
     "description": "一款功能强大的开源游戏工具箱，支持 Steam 加速、账号切换、库存管理等功能。",
     "category": "工具",
     "homepage": "https://steampp.net/",
-    "default_version": "latest",
     "versions": {
         "latest": {
             "urls": [

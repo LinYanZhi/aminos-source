@@ -9,7 +9,6 @@
     "description": "字节跳动推出的 AI 原生 IDE，基于 VS Code 构建，集成 AI 编程能力。",
     "category": "开发工具",
     "homepage": "https://www.trae.com.cn/",
-    "default_version": "latest",
     "versions": {
         "latest": {
             "urls": [

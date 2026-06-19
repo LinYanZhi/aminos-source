@@ -2,10 +2,10 @@
     "version":  2,
     "files":  {
                   "flclash.json":  {
-                                       "sha256":  "6d3757607b6792abf27a4ae191e53e84394669da0dee1ccf3ecc186e4ef25d0c"
+                                       "sha256":  "ebd081e24028241ffbc7fad118e891a89ade9bb4ee2f9b99042c45d2cfca9a77"
                                    },
                   "clash-verge.json":  {
-                                           "sha256":  "cb6e8b3445fcea8380abad2e543bc4a8427f20ffaeee9af9bc033a781130952e"
+                                           "sha256":  "daebd648a7fd225f320987034d6e0db823f905f3ee34a79805e8ef423773285c"
                                        }
               }
 }

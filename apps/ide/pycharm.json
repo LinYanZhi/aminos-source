@@ -9,7 +9,6 @@
     "description": "JetBrains 推出的 Python 专业 IDE，支持智能代码补全、调试、测试等。",
     "category": "开发工具",
     "homepage": "https://www.jetbrains.com/pycharm/",
-    "default_version": "2026.1.2",
     "versions": {
         "2026.1.2": {
             "urls": [

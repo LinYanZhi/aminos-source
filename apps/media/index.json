@@ -2,16 +2,16 @@
     "version":  2,
     "files":  {
                   "obs.json":  {
-                                   "sha256":  "d43b388dc630c365c3e10882197c2ad264ef7440d85cff1038ba376a6ffeb723"
+                                   "sha256":  "5c6eb8ba4d64aa384422d9dd96a5b3c618e37113c83f2ed85e848906ad7f691d"
                                },
                   "netease-music.json":  {
-                                             "sha256":  "51f1f7adcaebb69346579240561069186aa5f4eb4e17e19a9f505ce2b5e4b6d2"
+                                             "sha256":  "6c9e8d81e12ce625e7655b14d061e6171d96f089d1d65e78753588df5dd26a0b"
                                          },
                   "potplayer.json":  {
-                                         "sha256":  "1da13a3a315bb1208285ec8971048399a64f4a081609bd90d4a93ad68d811728"
+                                         "sha256":  "164d34e48cba2a5243856736324110c6301c2e98d9483aee63ede08955f7eff8"
                                      },
                   "steam.json":  {
-                                     "sha256":  "17372d73998c41e19bc7629d67401be6f685a9bef3445eeac2faf9937ed3c918"
+                                     "sha256":  "e9fc15f7533b5a2f268c646aff5c5e76f1ac29baaf3c6f559f06da8afeba769f"
                                  }
               }
 }

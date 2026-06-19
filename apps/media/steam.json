@@ -4,7 +4,6 @@
     "description": "全球最大的 PC 游戏数字发行平台，由 Valve 公司运营。",
     "category": "游戏",
     "homepage": "https://store.steampowered.com",
-    "default_version": "latest",
     "versions": {
         "latest": {
             "urls": [

@@ -2,13 +2,13 @@
     "version":  2,
     "files":  {
                   "microsoft-office.json":  {
-                                                "sha256":  "e3916ec2781b5c2faae81a5d15eaea1cda0205fe3a64d0036de33b5e9a6b452f"
+                                                "sha256":  "bc6d840f1444d3b83a94b8c71a52affac81a4d8a465148f3df3e8d8dd3ef3c5c"
                                             },
                   "wps.json":  {
-                                   "sha256":  "6147e7faffae245dd78a0c10b43a69df071ca39f650cec014886b40a8fd035a3"
+                                   "sha256":  "8c70bbac20e69ee21e3c4288d6f40b9a7fc63aeb66d8196a623e156bcdb1a157"
                                },
                   "pdfgear.json":  {
-                                       "sha256":  "d6e509ef2147dd0753bbdd06e4efa9b5bc2708640b2939bcf2eab9bd55956691"
+                                       "sha256":  "3c45de578a7b13fbdac0f83d7baf21df3c1169f4dcd57ffd283c8b9365558ebc"
                                    }
               }
 }

@@ -1,7 +1,6 @@
 {
     "name": "pp",
     "description": "PATH 环境变量查看器，支持颜色区分不同路径类型",
-    "default_version": "0.0.1",
     "versions": {
         "0.0.1": {
             "urls": [

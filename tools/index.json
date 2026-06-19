@@ -2,28 +2,28 @@
     "version":  2,
     "files":  {
                   "ls.json":  {
-                                  "sha256":  "1c7f04150cb696867d9c968bbb458c2319d7359a78a81f4de584f0d92721c352"
+                                  "sha256":  "1505b0398f5616cef717f4cd726b50790bb30c13f2a6007b7c5f16b8a7162ff5"
                               },
                   "uv.json":  {
-                                  "sha256":  "5a44970a3863152862d94ee73ae8f181cd84c17800117278cf42a391435aa5e6"
+                                  "sha256":  "52323b73d6d47e331cc325b7cfe41415e413f7ee25cafa0e7ef4716b0bd614d8"
                               },
                   "aria2c.json":  {
-                                      "sha256":  "08ad6192a45c2270f7036ba4a69147c0407684645016d412544d868f05280e5c"
+                                      "sha256":  "c3b94c66849d43b9fd2aad2bcaec460911319c9dad0d9425d4e924b3f0ea9b37"
                                   },
                   "lsd.json":  {
-                                   "sha256":  "f505a3bd0a4479c3059a54ef16e331a3b9b62e470d0f524cadf86fb69f017a54"
+                                   "sha256":  "0c38301a1f84908d654881b48b83fd00ca5f550c763de235bf471ecd2f642e64"
                                },
                   "as.json":  {
-                                  "sha256":  "18b4cdc8c976d6bb1cd4c1ed3b4e44899cee3aa13ce0a8165f612066a1323e56"
+                                  "sha256":  "ec7411707eb408aac653433a47217830693a5b95d2a7224b8eef366e75a999b3"
                               },
                   "ss.json":  {
-                                  "sha256":  "d434a09483918c2d65dc24d2949fb40c2a10c9118a028ef20605298d5668ff7e"
+                                  "sha256":  "8595e8879fb4d87bf94e53ef497129b68a49d27b424cd340a211a7ddb3d59dcc"
                               },
                   "pp.json":  {
-                                  "sha256":  "eecb79ea97a44fbe3489768196587e34f550df3d9d0e985bea06402371553aa1"
+                                  "sha256":  "bd313fcc58eb961d1015f1cc92cbd7418adf226cf1693ee81157d4d6fbc0f1be"
                               },
                   "eza.json":  {
-                                   "sha256":  "35ddaf31a2a1649fd16ec44046926edad3a01b7f30310b45d96c7fc635cfbc24"
+                                   "sha256":  "88df644550b301b998b25eb23210faba947cc47b20661a789de0fcb95f59c0b4"
                                }
               }
 }

@@ -2,10 +2,10 @@
     "version":  2,
     "files":  {
                   "git.json":  {
-                                   "sha256":  "00639426d043d21c03257b40dcb6bde5eddf71ad663fa65e9c6fefe466f6e655"
+                                   "sha256":  "973e1b8fc47d64b4de33ad94e8da5b51b77c965fc374325fc19c8d438ba9dd4d"
                                },
                   "yingdao.json":  {
-                                       "sha256":  "dced2f6e8d2e39a6bdd057372a7a8aef87512c20889b0b599e217d15ccca03dc"
+                                       "sha256":  "924f59db4c74e4892db0a0b5e95b64cf52d11ea645ab98bf641eebdd2b0b13ee"
                                    }
               }
 }

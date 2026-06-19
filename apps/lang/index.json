@@ -2,10 +2,10 @@
     "version":  2,
     "files":  {
                   "nvm.json":  {
-                                   "sha256":  "4e19e430fb88ae89e986b2af125d2001c6794551fe48dd5c8704386968648954"
+                                   "sha256":  "9c266739d622ccde93db265e7a170bf2fa3e223d1e2c3cd4b9a6c0a5f1c34a65"
                                },
                   "python.json":  {
-                                      "sha256":  "49d4be3ad72b4705ea478a3e7554ef913c14e102a44f2c6969efce8ef0d8835d"
+                                      "sha256":  "b08c06c92e122ee6d7c0c6f9b9e3c32f1adc8a105dc970347ff0f597966ae3b7"
                                   }
               }
 }

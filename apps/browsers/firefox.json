@@ -4,7 +4,6 @@
     "description": "Mozilla 推出的注重隐私和开放性的现代网页浏览器。",
     "category": "浏览器",
     "homepage": "https://www.mozilla.org/firefox/",
-    "default_version": "latest",
     "versions": {
         "latest": {
             "urls": [

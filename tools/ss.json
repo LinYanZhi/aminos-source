@@ -1,7 +1,6 @@
 {
     "name": "ss",
     "description": "环境变量查看器，支持颜色区分、左对齐，支持打开系统环境变量对话框",
-    "default_version": "0.0.1",
     "versions": {
         "0.0.1": {
             "urls": [
