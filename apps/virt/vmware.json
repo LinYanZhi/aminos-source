@@ -10,6 +10,7 @@
     "category": "开发工具",
     "homepage": "https://www.vmware.com/products/workstation-pro.html",
     "color": "bright-cyan",
+    "downloader": "ureq",
     "default_version": "17.6.3",
     "versions": {
         "17.6.3": {

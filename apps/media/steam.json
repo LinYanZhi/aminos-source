@@ -9,7 +9,7 @@
     "versions": {
         "latest": {
             "urls": [
-                "https://store.steampowered.com/about/"
+                "https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe"
             ],
             "arch": "x64",
             "installer_type": "inno",
