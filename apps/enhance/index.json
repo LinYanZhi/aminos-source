@@ -5,13 +5,13 @@
             "sha256": "65382a9116cc6d2e7068532cda3078cef6c4a23c9efad57bea9809bf905954be"
         },
         "baidunetdisk.json": {
-            "sha256": "3a76fdc6ef6a8ff3c199da38fb1890034f1d4ea448efe54b37f5a8a5ce0c3199"
+            "sha256": "72376f5e0f47144d7136a5bb17bb929900b01adbbb2f8e38c2f69e5b82ccd95a"
         },
         "pixpin.json": {
             "sha256": "7861c748c81f354acfc618280e1a8650d71a6e36ad831071521beca0af24f28d"
         },
         "quarkclouddrive.json": {
-            "sha256": "50a1233799e59221652e115bf9122ef62dd629cca369717a6a3c61971b9dceed"
+            "sha256": "a04b759b0ee01cd4e99fcfe4cfeaf976bf74dcc476a0a20bda5b902c09b01798"
         },
         "snipaste.json": {
             "sha256": "950dd4b13897ea8ecdb8460ac55956046a0f1e518706c7a98cea727669f59071"
@@ -23,7 +23,7 @@
             "sha256": "14dd4653f2df729ccb83ae8cc7a227966b8c01bf931221d7990ae51683cf0ed2"
         },
         "xunlei.json": {
-            "sha256": "dfb8e645c2b03906901d04cf5fed32129a19281770b6e254e8c0f96ce6abc8e7"
+            "sha256": "541c7bc0522ecba0f3e432bc930dc41b246cd3ab20788e80ed47d5018f6abaed"
         }
     }
 }

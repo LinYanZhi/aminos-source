@@ -3,7 +3,8 @@
     "display_name": "微信",
     "aliases": [
         "微信",
-        "weixin"
+        "weixin",
+        "wx"
     ],
     "description": "微信桌面版。腾讯推出的即时通讯社交软件。",
     "category": "社交",
