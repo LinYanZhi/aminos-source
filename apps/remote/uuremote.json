@@ -9,7 +9,6 @@
     "description": "网易出品的高性能远程控制软件，支持 4K 144Hz，免费低延迟远程办公和游戏。",
     "category": "工具",
     "homepage": "https://uuyc.163.com",
-    "color": "blue",
     "default_version": "4.27.2",
     "versions": {
         "4.27.2": {

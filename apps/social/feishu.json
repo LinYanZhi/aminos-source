@@ -9,7 +9,6 @@
     "description": "字节跳动推出的一站式企业协作平台，整合 IM、文档、日历、会议等功能。",
     "category": "社交",
     "homepage": "https://www.feishu.cn/",
-    "color": "blue",
     "default_version": "latest",
     "versions": {
         "latest": {

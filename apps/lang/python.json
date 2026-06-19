@@ -8,7 +8,6 @@
     "description": "Python 编程语言（Windows 官方安装版）。",
     "category": "开发工具",
     "homepage": "https://www.python.org/",
-    "color": "yellow",
     "default_version": "3.14.5",
     "versions": {
         "3.14.5": {

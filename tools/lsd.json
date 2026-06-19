@@ -2,7 +2,6 @@
     "name": "lsd",
     "description": "LSDeluxe — 现代化的 ls 替代品，支持图标、颜色、树形视图和 Git 集成",
     "default_version": "1.2.0",
-    "color": "bold-cyan",
     "versions": {
         "1.2.0": {
             "urls": [

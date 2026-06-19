@@ -1,14 +1,14 @@
-{
-    "version": 2,
-    "files": {
-        "microsoft-office.json": {
-            "sha256": "77e68a2c8245da782bf9bcb9f268849919b2f961bbdc7c25d576f9980b5a897d"
-        },
-        "wps.json": {
-            "sha256": "596bd378cc1ebb67e59206eb6c2e7d5596d4d37ba256c1b05115b94cdafda4f2"
-        },
-        "pdfgear.json": {
-            "sha256": "3d74a85d3a11d4707d1814aa6f566509bf996750a5b3aaef38e45adc55a18ff7"
-        }
-    }
+﻿{
+    "version":  2,
+    "files":  {
+                  "microsoft-office.json":  {
+                                                "sha256":  "e3916ec2781b5c2faae81a5d15eaea1cda0205fe3a64d0036de33b5e9a6b452f"
+                                            },
+                  "wps.json":  {
+                                   "sha256":  "6147e7faffae245dd78a0c10b43a69df071ca39f650cec014886b40a8fd035a3"
+                               },
+                  "pdfgear.json":  {
+                                       "sha256":  "d6e509ef2147dd0753bbdd06e4efa9b5bc2708640b2939bcf2eab9bd55956691"
+                                   }
+              }
 }

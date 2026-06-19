@@ -9,7 +9,6 @@
     "description": "金山推出的免费办公软件套装，包含文字、表格、演示等功能，兼容 Microsoft Office 格式。",
     "category": "办公",
     "homepage": "https://www.wps.cn/",
-    "color": "blue",
     "default_version": "latest",
     "versions": {
         "latest": {

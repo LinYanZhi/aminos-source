@@ -9,7 +9,6 @@
     "description": "免费开源的直播和录制软件，支持多种平台和插件扩展。",
     "category": "多媒体",
     "homepage": "https://obsproject.com/",
-    "color": "bright-magenta",
     "default_version": "32.1.0",
     "versions": {
         "32.1.0": {

@@ -4,7 +4,6 @@
     "description": "Google 推出的快速、安全的现代网页浏览器。",
     "category": "浏览器",
     "homepage": "https://www.google.com/chrome/",
-    "color": "bright-green",
     "default_version": "latest",
     "versions": {
         "latest": {

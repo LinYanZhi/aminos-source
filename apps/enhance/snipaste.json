@@ -4,7 +4,6 @@
     "description": "截图 + 贴图工具，支持截图后贴回到屏幕上作为悬浮窗口。便携版无需安装。",
     "category": "工具",
     "homepage": "https://www.snipaste.com",
-    "color": "bright-yellow",
     "default_version": "2.11.3",
     "versions": {
         "2.11.3": {

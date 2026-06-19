@@ -8,7 +8,6 @@
     "description": "微软推出的现代网页浏览器，基于 Chromium 内核。",
     "category": "浏览器",
     "homepage": "https://www.microsoft.com/edge",
-    "color": "blue",
     "default_version": "latest",
     "versions": {
         "latest": {

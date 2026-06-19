@@ -8,7 +8,6 @@
     "description": "阿里巴巴出品，专为中国企业打造的智能移动办公平台。",
     "category": "社交",
     "homepage": "https://www.dingtalk.com/",
-    "color": "blue",
     "downloader": "rust-ureq",
     "default_version": "latest",
     "versions": {

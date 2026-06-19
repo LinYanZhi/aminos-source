@@ -4,7 +4,6 @@
     "description": "韩国 Kakao 团队推出的全能视频播放器，内置强大解码器，支持 4K/8K 硬件加速。",
     "category": "影音",
     "homepage": "https://potplayer.daum.net",
-    "color": "cyan",
     "default_version": "1.7.22898",
     "versions": {
         "1.7.22898": {

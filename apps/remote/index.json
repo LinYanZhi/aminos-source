@@ -1,14 +1,14 @@
-{
-    "version": 2,
-    "files": {
-        "uuremote.json": {
-            "sha256": "3ad47a790d5940dc9aa88f6415a356363b06a3ef092d568436e97b33a99ff4d2"
-        },
-        "todesk.json": {
-            "sha256": "542a94bc0060cf20560895a3cc757e850569e351791836e4837f014006fa86aa"
-        },
-        "sunlogin.json": {
-            "sha256": "e72b24f1b3186b8d5e726e50fa07babb98cac91ef7c3e7037ba4ba5ce80d2fb5"
-        }
-    }
+﻿{
+    "version":  2,
+    "files":  {
+                  "uuremote.json":  {
+                                        "sha256":  "8755c956973d2386992c09e11567d76069bc14af8067354c9bbb99f73f4a04cc"
+                                    },
+                  "todesk.json":  {
+                                      "sha256":  "35351f36b4b4acde131aa253098cd9424feec02143d6a811583ab90cca22239e"
+                                  },
+                  "sunlogin.json":  {
+                                        "sha256":  "0646db2b34c76bcc1eb4655a765d36dd62b7d1cd5a3e574ecdb65212541c003e"
+                                    }
+              }
 }

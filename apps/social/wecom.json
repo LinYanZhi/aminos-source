@@ -10,7 +10,6 @@
     "description": "腾讯微信团队为企业打造的专业办公管理工具，与微信一致的沟通体验。",
     "category": "社交",
     "homepage": "https://work.weixin.qq.com/",
-    "color": "blue",
     "default_version": "latest",
     "versions": {
         "latest": {

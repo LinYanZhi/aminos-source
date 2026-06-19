@@ -10,7 +10,6 @@
     "description": "微软 Office 办公软件套件，包含 Word、Excel、PowerPoint、Outlook 等。",
     "category": "办公",
     "homepage": "https://www.microsoft.com/microsoft-365",
-    "color": "bright-magenta",
     "default_version": "2024",
     "versions": {
         "2024": {

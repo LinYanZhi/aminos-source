@@ -9,7 +9,6 @@
     "description": "强大的桌面虚拟化软件，允许在一台物理机上运行多个虚拟机。",
     "category": "开发工具",
     "homepage": "https://www.vmware.com/products/workstation-pro.html",
-    "color": "bright-cyan",
     "downloader": "rust-ureq",
     "default_version": "17.6.3",
     "versions": {

@@ -7,7 +7,6 @@
     "description": "免费强大的 PDF 编辑、转换、阅读工具，支持 AI 聊天、格式转换、编辑等功能。",
     "category": "办公",
     "homepage": "https://www.pdfgear.com/",
-    "color": "blue",
     "default_version": "latest",
     "versions": {
         "latest": {

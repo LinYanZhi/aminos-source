@@ -10,7 +10,6 @@
     "description": "免费纯净的 Windows PE 工具箱，用于系统维护、数据恢复等。",
     "category": "工具",
     "homepage": "https://www.wepe.com.cn/",
-    "color": "cyan",
     "default_version": "2.3",
     "versions": {
         "2.3": {

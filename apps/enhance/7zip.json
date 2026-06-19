@@ -8,7 +8,6 @@
     "description": "免费开源的文件压缩/解压工具，支持 7z、ZIP、RAR 等多种格式。",
     "category": "工具",
     "homepage": "https://7-zip.org/",
-    "color": "yellow",
     "default_version": "26.01",
     "versions": {
         "26.01": {

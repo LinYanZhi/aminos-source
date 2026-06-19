@@ -8,7 +8,6 @@
     "description": "高速流畅的远程控制软件，支持 4K 高清画质、文件传输。",
     "category": "工具",
     "homepage": "https://www.todesk.com/",
-    "color": "magenta",
     "default_version": "latest",
     "versions": {
         "latest": {

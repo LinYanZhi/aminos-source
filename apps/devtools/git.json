@@ -4,7 +4,6 @@
     "description": "Git for Windows。分布式版本控制系统。",
     "category": "开发工具",
     "homepage": "https://git-scm.com/",
-    "color": "red",
     "default_version": "2.54.0",
     "versions": {
         "2.54.0": {
