@@ -1,14 +1,15 @@
 {
-  "name": "as",
-  "description": "aminos 包管理器自身",
-  "default_version": "0.0.1",
-  "versions": {
-    "0.0.1": {
-      "urls": [
-        "https://raw.githubusercontent.com/LinYanZhi/aminos-source/main/tools/as/as.zip"
-      ],
-      "entry_point": "as.exe",
-      "sha256": "c68adfc79bbb5774a17b38045b8e4bfedefe3ba5d3ef942bf6fcb3108b89750c"
+    "name": "as",
+    "description": "aminos 包管理器自身",
+    "default_version": "0.0.1",
+    "color": "bold-cyan",
+    "versions": {
+        "0.0.1": {
+            "urls": [
+                "https://raw.githubusercontent.com/LinYanZhi/aminos-source/main/tools/as/as.zip"
+            ],
+            "entry_point": "as.exe",
+            "sha256": "c68adfc79bbb5774a17b38045b8e4bfedefe3ba5d3ef942bf6fcb3108b89750c"
+        }
     }
-  }
 }

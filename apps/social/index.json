@@ -1,17 +1,17 @@
-﻿{
-    "version":  2,
-    "files":  {
-                  "feishu.json":  {
-                                      "sha256":  "079405f91bcef018cf5bc0d1cc3b572a1f89123c2a359548ac3c9df35b18df7a"
-                                  },
-                  "wechat.json":  {
-                                      "sha256":  "411bce3edc031c285d4d708b8d87db6fb2b0bfd2b268a925bb3ff1793abc4a80"
-                                  },
-                  "dingtalk.json":  {
-                                        "sha256":  "c041e21430a3df219ee04e8411a616f6074580696b0a9a8c3a8a53fda16d8d8e"
-                                    },
-                  "wecom.json":  {
-                                     "sha256":  "be5599c93215dc569434c1d695b3e760f671ab311c32c14133ac71baff4f7502"
-                                 }
-              }
+{
+    "version": 2,
+    "files": {
+        "feishu.json": {
+            "sha256": "162a10e26487cc392718a994b3f197114f53a7dfdbcd67e0656ef301b2f02d8c"
+        },
+        "wechat.json": {
+            "sha256": "5a4d4f75e17e36f9923f1c812b6feb0bcb2e71b1a4ed2e2684f93a1dfbb520f9"
+        },
+        "dingtalk.json": {
+            "sha256": "fcbdbf261f59c0c0f7eca711f3b0636c193a7e4b0b810414cbdb3d948f6c8f22"
+        },
+        "wecom.json": {
+            "sha256": "26f1f3e18917773032ff9d9e821b9ce4085c210cbdfcff5abcedadd133c6dea5"
+        }
+    }
 }

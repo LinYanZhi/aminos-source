@@ -1,30 +1,38 @@
 {
-  "name": "netease-music",
-  "display_name": "网易云音乐",
-  "aliases": ["netease music", "cloudmusic", "网易云", "wyy"],
-  "description": "网易出品的音乐播放器，支持海量曲库、个性推荐、精彩乐评和音乐社区。",
-  "category": "影音",
-  "homepage": "https://music.163.com",
-  "default_version": "latest",
-  "versions": {
-    "latest": {
-      "urls": [
-        "https://d8.music.126.net/dmusic2/NeteaseCloudMusic_Music_official_3.1.35.205293_64.exe"
-      ],
-      "arch": "x64",
-      "installer_type": "nsis",
-      "install_args": ["/S"],
-      "install_dir_candidates": [
-        "C:\\Program Files (x86)\\Netease\\CloudMusic"
-      ],
-      "detection": {
-        "display_name": "网易云音乐",
-        "publisher": "NetEase"
-      },
-      "shortcut_candidates": [
-        "%PUBLIC%\\Desktop\\网易云音乐.lnk",
-        "%USERPROFILE%\\Desktop\\网易云音乐.lnk"
-      ]
+    "name": "netease-music",
+    "display_name": "网易云音乐",
+    "aliases": [
+        "netease music",
+        "cloudmusic",
+        "网易云",
+        "wyy"
+    ],
+    "description": "网易出品的音乐播放器，支持海量曲库、个性推荐、精彩乐评和音乐社区。",
+    "category": "影音",
+    "homepage": "https://music.163.com",
+    "color": "red",
+    "default_version": "latest",
+    "versions": {
+        "latest": {
+            "urls": [
+                "https://d8.music.126.net/dmusic2/NeteaseCloudMusic_Music_official_3.1.35.205293_64.exe"
+            ],
+            "arch": "x64",
+            "installer_type": "nsis",
+            "install_args": [
+                "/S"
+            ],
+            "install_dir_candidates": [
+                "C:\\Program Files (x86)\\Netease\\CloudMusic"
+            ],
+            "detection": {
+                "display_name": "网易云音乐",
+                "publisher": "NetEase"
+            },
+            "shortcut_candidates": [
+                "%PUBLIC%\\Desktop\\网易云音乐.lnk",
+                "%USERPROFILE%\\Desktop\\网易云音乐.lnk"
+            ]
+        }
     }
-  }
 }

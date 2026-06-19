@@ -1,34 +1,41 @@
 {
-  "name": "wps",
-  "display_name": "WPS Office",
-  "aliases": ["wps office", "金山wps", "wps"],
-  "description": "金山推出的免费办公软件套装，包含文字、表格、演示等功能，兼容 Microsoft Office 格式。",
-  "category": "办公",
-  "homepage": "https://www.wps.cn/",
-  "default_version": "latest",
-  "versions": {
-    "latest": {
-      "urls": [
-        "https://official-package.wpscdn.cn/wps/download/WPS_Setup_26895.exe",
-        "https://download.mirror-wps.com/ibigpnbtzlc8/WPS_Setup_25225.exe"
-      ],
-      "arch": "x64",
-      "installer_type": "inno",
-      "install_args": ["/S"],
-      "detection": {
-        "display_name": "WPS Office"
-      },
-      "shortcut_candidates": [
-        "%PUBLIC%\\Desktop\\WPS Office.lnk",
-        "%USERPROFILE%\\Desktop\\WPS Office.lnk",
-        "%USERPROFILE%\\Desktop\\WPS文字.lnk",
-        "%USERPROFILE%\\Desktop\\WPS表格.lnk",
-        "%USERPROFILE%\\Desktop\\WPS演示.lnk"
-      ],
-      "install_dir_candidates": [
-        "C:\\Program Files (x86)\\Kingsoft\\WPS Office",
-        "C:\\Program Files\\WPS Office"
-      ]
+    "name": "wps",
+    "display_name": "WPS Office",
+    "aliases": [
+        "wps office",
+        "金山wps",
+        "wps"
+    ],
+    "description": "金山推出的免费办公软件套装，包含文字、表格、演示等功能，兼容 Microsoft Office 格式。",
+    "category": "办公",
+    "homepage": "https://www.wps.cn/",
+    "color": "blue",
+    "default_version": "latest",
+    "versions": {
+        "latest": {
+            "urls": [
+                "https://official-package.wpscdn.cn/wps/download/WPS_Setup_26895.exe",
+                "https://download.mirror-wps.com/ibigpnbtzlc8/WPS_Setup_25225.exe"
+            ],
+            "arch": "x64",
+            "installer_type": "inno",
+            "install_args": [
+                "/S"
+            ],
+            "detection": {
+                "display_name": "WPS Office"
+            },
+            "shortcut_candidates": [
+                "%PUBLIC%\\Desktop\\WPS Office.lnk",
+                "%USERPROFILE%\\Desktop\\WPS Office.lnk",
+                "%USERPROFILE%\\Desktop\\WPS文字.lnk",
+                "%USERPROFILE%\\Desktop\\WPS表格.lnk",
+                "%USERPROFILE%\\Desktop\\WPS演示.lnk"
+            ],
+            "install_dir_candidates": [
+                "C:\\Program Files (x86)\\Kingsoft\\WPS Office",
+                "C:\\Program Files\\WPS Office"
+            ]
+        }
     }
-  }
 }

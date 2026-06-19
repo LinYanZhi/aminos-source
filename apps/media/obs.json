@@ -1,31 +1,39 @@
 {
-  "name": "obs",
-  "display_name": "OBS Studio",
-  "aliases": ["obs studio", "obs-studio", "open broadcaster software"],
-  "description": "免费开源的直播和录制软件，支持多种平台和插件扩展。",
-  "category": "多媒体",
-  "homepage": "https://obsproject.com/",
-  "default_version": "32.1.0",
-  "versions": {
-    "32.1.0": {
-      "urls": [
-        "https://mirrors.huaweicloud.com/obsproject/obs-studio/32.1.0/OBS-Studio-32.1.0-Windows-Installer.exe"
-      ],
-      "arch": "x64",
-      "installer_type": "nsis",
-      "install_args": ["/S", "/D=C:\\Program Files\\obs-studio"],
-      "detection": {
-        "display_name": "OBS Studio",
-        "publisher": "OBS Project"
-      },
-      "shortcut_candidates": [
-        "%PUBLIC%\\Desktop\\OBS Studio.lnk",
-        "%USERPROFILE%\\Desktop\\OBS Studio.lnk",
-        "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\OBS Studio\\OBS Studio.lnk"
-      ],
-      "install_dir_candidates": [
-        "C:\\Program Files\\obs-studio"
-      ]
+    "name": "obs",
+    "display_name": "OBS Studio",
+    "aliases": [
+        "obs studio",
+        "obs-studio",
+        "open broadcaster software"
+    ],
+    "description": "免费开源的直播和录制软件，支持多种平台和插件扩展。",
+    "category": "多媒体",
+    "homepage": "https://obsproject.com/",
+    "color": "bright-magenta",
+    "default_version": "32.1.0",
+    "versions": {
+        "32.1.0": {
+            "urls": [
+                "https://mirrors.huaweicloud.com/obsproject/obs-studio/32.1.0/OBS-Studio-32.1.0-Windows-Installer.exe"
+            ],
+            "arch": "x64",
+            "installer_type": "nsis",
+            "install_args": [
+                "/S",
+                "/D=C:\\Program Files\\obs-studio"
+            ],
+            "detection": {
+                "display_name": "OBS Studio",
+                "publisher": "OBS Project"
+            },
+            "shortcut_candidates": [
+                "%PUBLIC%\\Desktop\\OBS Studio.lnk",
+                "%USERPROFILE%\\Desktop\\OBS Studio.lnk",
+                "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\OBS Studio\\OBS Studio.lnk"
+            ],
+            "install_dir_candidates": [
+                "C:\\Program Files\\obs-studio"
+            ]
+        }
     }
-  }
 }

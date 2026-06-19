@@ -1,32 +1,39 @@
 {
-  "name": "feishu",
-  "display_name": "飞书",
-  "aliases": ["飞书", "feishu", "lark"],
-  "description": "字节跳动推出的一站式企业协作平台，整合 IM、文档、日历、会议等功能。",
-  "category": "社交",
-  "homepage": "https://www.feishu.cn/",
-  "default_version": "latest",
-  "versions": {
-    "latest": {
-      "urls": [
-        "https://sf3-cn.feishucdn.com/obj/ee-appcenter/ed9143c5/Feishu-win32_x64-7.69.9-signed.exe"
-      ],
-      "arch": "x64",
-      "installer_type": "inno",
-      "install_args": ["/S"],
-      "detection": {
-        "display_name": "飞书",
-        "publisher": "字节跳动"
-      },
-      "shortcut_candidates": [
-        "%PUBLIC%\\Desktop\\飞书.lnk",
-        "%USERPROFILE%\\Desktop\\飞书.lnk",
-        "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\飞书\\飞书.lnk"
-      ],
-      "install_dir_candidates": [
-        "C:\\Program Files (x86)\\Feishu",
-        "C:\\Program Files\\Feishu"
-      ]
+    "name": "feishu",
+    "display_name": "飞书",
+    "aliases": [
+        "飞书",
+        "feishu",
+        "lark"
+    ],
+    "description": "字节跳动推出的一站式企业协作平台，整合 IM、文档、日历、会议等功能。",
+    "category": "社交",
+    "homepage": "https://www.feishu.cn/",
+    "color": "blue",
+    "default_version": "latest",
+    "versions": {
+        "latest": {
+            "urls": [
+                "https://sf3-cn.feishucdn.com/obj/ee-appcenter/ed9143c5/Feishu-win32_x64-7.69.9-signed.exe"
+            ],
+            "arch": "x64",
+            "installer_type": "inno",
+            "install_args": [
+                "/S"
+            ],
+            "detection": {
+                "display_name": "飞书",
+                "publisher": "字节跳动"
+            },
+            "shortcut_candidates": [
+                "%PUBLIC%\\Desktop\\飞书.lnk",
+                "%USERPROFILE%\\Desktop\\飞书.lnk",
+                "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\飞书\\飞书.lnk"
+            ],
+            "install_dir_candidates": [
+                "C:\\Program Files (x86)\\Feishu",
+                "C:\\Program Files\\Feishu"
+            ]
+        }
     }
-  }
 }

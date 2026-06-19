@@ -1,31 +1,38 @@
 {
-  "name": "trae",
-  "display_name": "Trae CN",
-  "aliases": ["trae", "trae cn", "字节trae"],
-  "description": "字节跳动推出的 AI 原生 IDE，基于 VS Code 构建，集成 AI 编程能力。",
-  "category": "开发工具",
-  "homepage": "https://www.trae.com.cn/",
-  "default_version": "latest",
-  "versions": {
-    "latest": {
-      "urls": [
-        "https://lf-trae.toscdn.com/obj/trae-ai-cn/pkg/app/releases/stable/1.0.10283/win32/Trae-Setup-x64.exe"
-      ],
-      "arch": "x64",
-      "installer_type": "nsis",
-      "install_args": ["/S"],
-      "detection": {
-        "display_name": "Trae CN",
-        "publisher": "字节跳动"
-      },
-      "shortcut_candidates": [
-        "%PUBLIC%\\Desktop\\Trae CN.lnk",
-        "%USERPROFILE%\\Desktop\\Trae CN.lnk",
-        "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\Trae CN\\Trae CN.lnk"
-      ],
-      "install_dir_candidates": [
-        "%LOCALAPPDATA%\\Programs\\Trae CN"
-      ]
+    "name": "trae",
+    "display_name": "Trae CN",
+    "aliases": [
+        "trae",
+        "trae cn",
+        "字节trae"
+    ],
+    "description": "字节跳动推出的 AI 原生 IDE，基于 VS Code 构建，集成 AI 编程能力。",
+    "category": "开发工具",
+    "homepage": "https://www.trae.com.cn/",
+    "color": "blue",
+    "default_version": "latest",
+    "versions": {
+        "latest": {
+            "urls": [
+                "https://lf-trae.toscdn.com/obj/trae-ai-cn/pkg/app/releases/stable/1.0.10283/win32/Trae-Setup-x64.exe"
+            ],
+            "arch": "x64",
+            "installer_type": "nsis",
+            "install_args": [
+                "/S"
+            ],
+            "detection": {
+                "display_name": "Trae CN",
+                "publisher": "字节跳动"
+            },
+            "shortcut_candidates": [
+                "%PUBLIC%\\Desktop\\Trae CN.lnk",
+                "%USERPROFILE%\\Desktop\\Trae CN.lnk",
+                "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\Trae CN\\Trae CN.lnk"
+            ],
+            "install_dir_candidates": [
+                "%LOCALAPPDATA%\\Programs\\Trae CN"
+            ]
+        }
     }
-  }
 }

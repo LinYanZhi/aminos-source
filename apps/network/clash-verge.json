@@ -1,32 +1,39 @@
 {
-  "name": "clash-verge",
-  "display_name": "Clash Verge",
-  "aliases": ["clash verge", "clash-verge", "verge"],
-  "description": "基于 Clash 内核的跨平台代理客户端，简洁易用的图形界面。",
-  "category": "网络工具",
-  "homepage": "https://github.com/clash-verge-rev/clash-verge-rev",
-  "default_version": "2.4.4",
-  "versions": {
-    "2.4.4": {
-      "urls": [
-        "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.4.4/Clash.Verge_2.4.4_x64-setup.exe",
-        "https://mirrors.huaweicloud.com/github-release/clash-verge-rev/clash-verge-rev/v2.4.4/Clash.Verge_2.4.4_x64-setup.exe"
-      ],
-      "arch": "x64",
-      "installer_type": "nsis",
-      "install_args": ["/S"],
-      "detection": {
-        "display_name": "Clash Verge",
-        "publisher": "Clash Verge Rev"
-      },
-      "shortcut_candidates": [
-        "%PUBLIC%\\Desktop\\Clash Verge.lnk",
-        "%USERPROFILE%\\Desktop\\Clash Verge.lnk",
-        "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\Clash Verge\\Clash Verge.lnk"
-      ],
-      "install_dir_candidates": [
-        "C:\\Program Files\\Clash Verge"
-      ]
+    "name": "clash-verge",
+    "display_name": "Clash Verge",
+    "aliases": [
+        "clash verge",
+        "clash-verge",
+        "verge"
+    ],
+    "description": "基于 Clash 内核的跨平台代理客户端，简洁易用的图形界面。",
+    "category": "网络工具",
+    "homepage": "https://github.com/clash-verge-rev/clash-verge-rev",
+    "color": "green",
+    "default_version": "2.4.4",
+    "versions": {
+        "2.4.4": {
+            "urls": [
+                "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.4.4/Clash.Verge_2.4.4_x64-setup.exe",
+                "https://mirrors.huaweicloud.com/github-release/clash-verge-rev/clash-verge-rev/v2.4.4/Clash.Verge_2.4.4_x64-setup.exe"
+            ],
+            "arch": "x64",
+            "installer_type": "nsis",
+            "install_args": [
+                "/S"
+            ],
+            "detection": {
+                "display_name": "Clash Verge",
+                "publisher": "Clash Verge Rev"
+            },
+            "shortcut_candidates": [
+                "%PUBLIC%\\Desktop\\Clash Verge.lnk",
+                "%USERPROFILE%\\Desktop\\Clash Verge.lnk",
+                "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\Clash Verge\\Clash Verge.lnk"
+            ],
+            "install_dir_candidates": [
+                "C:\\Program Files\\Clash Verge"
+            ]
+        }
     }
-  }
 }

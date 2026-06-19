@@ -1,20 +1,20 @@
-﻿{
-    "version":  2,
-    "files":  {
-                  "ttime.json":  {
-                                     "sha256":  "e8464611f8033ec279bf2ca1eb91d899897efebb0922081fc6713bf54fed31b1"
-                                 },
-                  "utools.json":  {
-                                      "sha256":  "e8125d67dfc2a2790a3f9ab4c4c514702acecc7d762222b7e7fcc7114d6ab5d9"
-                                  },
-                  "snipaste.json":  {
-                                        "sha256":  "a4766904fbb23e176b5f4fb1205f839f201a87e72092a52ada98c1e2c74104d4"
-                                    },
-                  "7zip.json":  {
-                                    "sha256":  "316ec0aa7f9a0a8b1e523f63336596988543754bd88ebd14a4c4d7b171321739"
-                                },
-                  "pixpin.json":  {
-                                      "sha256":  "1271e190e56d6e3f5464aa0d998c5ff95eeb6ab223a963485ebef64a130ae0df"
-                                  }
-              }
+{
+    "version": 2,
+    "files": {
+        "ttime.json": {
+            "sha256": "1413f083ff07ee14aef1882094d88d39794b807068e7c96534dbab72ecb467e5"
+        },
+        "utools.json": {
+            "sha256": "595a4b1fb0792fd45dbfff30d9d7c395a3bcfbdfaa6442af2585fed20683823d"
+        },
+        "snipaste.json": {
+            "sha256": "077360a3d17629938febab26eb649cdaa13f6caabdeaff0136176a706fd7d461"
+        },
+        "7zip.json": {
+            "sha256": "490afc1d70d45c56e09fb980486b1cf265903e620f29d7ad92d683211709bdd1"
+        },
+        "pixpin.json": {
+            "sha256": "64463cdc894d970df8e013f0e8137b5780b26dd22594177407ffec9f79776328"
+        }
+    }
 }

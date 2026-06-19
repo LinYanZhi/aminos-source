@@ -1,11 +1,11 @@
-﻿{
-    "version":  2,
-    "files":  {
-                  "flclash.json":  {
-                                       "sha256":  "9b8de086242ebf164827da3f67be50d40b6ff7ec1834533f70e2a00cff380e59"
-                                   },
-                  "clash-verge.json":  {
-                                           "sha256":  "235fcdae4a2423fcbe354828b91ffeadb90acf9cafb1de768272237f8472aa88"
-                                       }
-              }
+{
+    "version": 2,
+    "files": {
+        "flclash.json": {
+            "sha256": "f60eb6d1a1ebc7c53493af5849974a66da34ad9751801a7a0cd84fdd3006fbbe"
+        },
+        "clash-verge.json": {
+            "sha256": "b2c5e96a458728e34418a6a1bdd0d590731c2a7c425fd3b4abcfb3059e814cfd"
+        }
+    }
 }

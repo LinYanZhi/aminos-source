@@ -1,30 +1,34 @@
 {
-  "name": "steam",
-  "display_name": "Steam",
-  "description": "全球最大的 PC 游戏数字发行平台，由 Valve 公司运营。",
-  "category": "游戏",
-  "homepage": "https://store.steampowered.com",
-  "default_version": "latest",
-  "versions": {
-    "latest": {
-      "urls": [
-        "https://store.steampowered.com/about/"
-      ],
-      "arch": "x64",
-      "installer_type": "inno",
-      "install_args": ["/SILENT", "/NORESTART"],
-      "detection": {
-        "display_name": "Steam",
-        "publisher": "Valve Corporation"
-      },
-      "shortcut_candidates": [
-        "%PUBLIC%\\Desktop\\Steam.lnk",
-        "%USERPROFILE%\\Desktop\\Steam.lnk",
-        "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Steam\\Steam.lnk"
-      ],
-      "install_dir_candidates": [
-        "C:\\Program Files (x86)\\Steam"
-      ]
+    "name": "steam",
+    "display_name": "Steam",
+    "description": "全球最大的 PC 游戏数字发行平台，由 Valve 公司运营。",
+    "category": "游戏",
+    "homepage": "https://store.steampowered.com",
+    "color": "bright-cyan",
+    "default_version": "latest",
+    "versions": {
+        "latest": {
+            "urls": [
+                "https://store.steampowered.com/about/"
+            ],
+            "arch": "x64",
+            "installer_type": "inno",
+            "install_args": [
+                "/SILENT",
+                "/NORESTART"
+            ],
+            "detection": {
+                "display_name": "Steam",
+                "publisher": "Valve Corporation"
+            },
+            "shortcut_candidates": [
+                "%PUBLIC%\\Desktop\\Steam.lnk",
+                "%USERPROFILE%\\Desktop\\Steam.lnk",
+                "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Steam\\Steam.lnk"
+            ],
+            "install_dir_candidates": [
+                "C:\\Program Files (x86)\\Steam"
+            ]
+        }
     }
-  }
 }

@@ -1,31 +1,39 @@
 {
-  "name": "wecom",
-  "display_name": "企业微信",
-  "aliases": ["企业微信", "wecom", "企微", "work weixin"],
-  "description": "腾讯微信团队为企业打造的专业办公管理工具，与微信一致的沟通体验。",
-  "category": "社交",
-  "homepage": "https://work.weixin.qq.com/",
-  "default_version": "latest",
-  "versions": {
-    "latest": {
-      "urls": [
-        "https://work.weixin.qq.com/wework_admin/commdownload?platform=win"
-      ],
-      "arch": "x64",
-      "installer_type": "inno",
-      "install_args": ["/S"],
-      "detection": {
-        "display_name": "企业微信",
-        "publisher": "腾讯"
-      },
-      "shortcut_candidates": [
-        "%PUBLIC%\\Desktop\\企业微信.lnk",
-        "%USERPROFILE%\\Desktop\\企业微信.lnk",
-        "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\企业微信\\企业微信.lnk"
-      ],
-      "install_dir_candidates": [
-        "C:\\Program Files (x86)\\Tencent\\WeCom"
-      ]
+    "name": "wecom",
+    "display_name": "企业微信",
+    "aliases": [
+        "企业微信",
+        "wecom",
+        "企微",
+        "work weixin"
+    ],
+    "description": "腾讯微信团队为企业打造的专业办公管理工具，与微信一致的沟通体验。",
+    "category": "社交",
+    "homepage": "https://work.weixin.qq.com/",
+    "color": "blue",
+    "default_version": "latest",
+    "versions": {
+        "latest": {
+            "urls": [
+                "https://work.weixin.qq.com/wework_admin/commdownload?platform=win"
+            ],
+            "arch": "x64",
+            "installer_type": "inno",
+            "install_args": [
+                "/S"
+            ],
+            "detection": {
+                "display_name": "企业微信",
+                "publisher": "腾讯"
+            },
+            "shortcut_candidates": [
+                "%PUBLIC%\\Desktop\\企业微信.lnk",
+                "%USERPROFILE%\\Desktop\\企业微信.lnk",
+                "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\企业微信\\企业微信.lnk"
+            ],
+            "install_dir_candidates": [
+                "C:\\Program Files (x86)\\Tencent\\WeCom"
+            ]
+        }
     }
-  }
 }

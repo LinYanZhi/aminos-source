@@ -1,32 +1,39 @@
 {
-  "name": "edge",
-  "display_name": "Microsoft Edge",
-  "aliases": ["microsoft edge", "edge"],
-  "description": "微软推出的现代网页浏览器，基于 Chromium 内核。",
-  "category": "浏览器",
-  "homepage": "https://www.microsoft.com/edge",
-  "default_version": "latest",
-  "versions": {
-    "latest": {
-      "urls": [
-        "https://c2rsetup.officeapps.live.com/c2r/downloadEdge.aspx?platform=Default&source=EdgeStablePage&Channel=Stable&language=zh-cn&brand=M100",
-        "https://go.microsoft.com/fwlink/?LinkID=2093437"
-      ],
-      "arch": "x64",
-      "installer_type": "custom",
-      "install_args": ["--silent", "--install"],
-      "detection": {
-        "display_name": "Microsoft Edge",
-        "publisher": "Microsoft Corporation"
-      },
-      "shortcut_candidates": [
-        "%PUBLIC%\\Desktop\\Microsoft Edge.lnk",
-        "%USERPROFILE%\\Desktop\\Microsoft Edge.lnk",
-        "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\Microsoft Edge.lnk"
-      ],
-      "install_dir_candidates": [
-        "C:\\Program Files (x86)\\Microsoft\\Edge\\Application"
-      ]
+    "name": "edge",
+    "display_name": "Microsoft Edge",
+    "aliases": [
+        "microsoft edge",
+        "edge"
+    ],
+    "description": "微软推出的现代网页浏览器，基于 Chromium 内核。",
+    "category": "浏览器",
+    "homepage": "https://www.microsoft.com/edge",
+    "color": "blue",
+    "default_version": "latest",
+    "versions": {
+        "latest": {
+            "urls": [
+                "https://c2rsetup.officeapps.live.com/c2r/downloadEdge.aspx?platform=Default&source=EdgeStablePage&Channel=Stable&language=zh-cn&brand=M100",
+                "https://go.microsoft.com/fwlink/?LinkID=2093437"
+            ],
+            "arch": "x64",
+            "installer_type": "custom",
+            "install_args": [
+                "--silent",
+                "--install"
+            ],
+            "detection": {
+                "display_name": "Microsoft Edge",
+                "publisher": "Microsoft Corporation"
+            },
+            "shortcut_candidates": [
+                "%PUBLIC%\\Desktop\\Microsoft Edge.lnk",
+                "%USERPROFILE%\\Desktop\\Microsoft Edge.lnk",
+                "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\Microsoft Edge.lnk"
+            ],
+            "install_dir_candidates": [
+                "C:\\Program Files (x86)\\Microsoft\\Edge\\Application"
+            ]
+        }
     }
-  }
 }

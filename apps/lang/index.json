@@ -1,11 +1,11 @@
-﻿{
-    "version":  2,
-    "files":  {
-                  "nvm.json":  {
-                                   "sha256":  "793bef29c311ad4aa6e004c97d45458d77dafefa7e996817e54c5ede49f34f16"
-                               },
-                  "python.json":  {
-                                      "sha256":  "a1ad5740a6b660ee4e7d5ef7133416cdaaeff961da8ddd5fdb0cba6eace771d0"
-                                  }
-              }
+{
+    "version": 2,
+    "files": {
+        "nvm.json": {
+            "sha256": "847c548475f1d8978b93f6a77618e3d65f6753b4f83eb52b04efb321d0baa1b9"
+        },
+        "python.json": {
+            "sha256": "c03a24696517784c3d4ad4135da97571eb1e32197fea7545d3303ba4c0d3ac79"
+        }
+    }
 }

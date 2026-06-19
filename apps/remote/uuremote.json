@@ -1,32 +1,40 @@
 {
-  "name": "uuremote",
-  "display_name": "网易UU远程",
-  "aliases": ["uu远程", "uuremote", "网易uu远程"],
-  "description": "网易出品的高性能远程控制软件，支持 4K 144Hz，免费低延迟远程办公和游戏。",
-  "category": "工具",
-  "homepage": "https://uuyc.163.com",
-  "default_version": "4.27.2",
-  "versions": {
-    "4.27.2": {
-      "urls": [
-        "https://api.nrd.nie.163.com/api/v1/release/dl/1?channel=gw",
-        "https://adl.netease.com/d/g/uuremote/c/gw"
-      ],
-      "arch": "x64",
-      "installer_type": "inno",
-      "install_args": ["/SILENT", "/NORESTART"],
-      "install_dir_candidates": [
-        "C:\\Program Files (x86)\\Netease\\UU远程",
-        "C:\\Program Files (x86)\\Netease\\UURemote"
-      ],
-      "detection": {
-        "display_name": "UU远程",
-        "publisher": "NetEase"
-      },
-      "shortcut_candidates": [
-        "%PUBLIC%\\Desktop\\UU远程.lnk",
-        "%USERPROFILE%\\Desktop\\UU远程.lnk"
-      ]
+    "name": "uuremote",
+    "display_name": "网易UU远程",
+    "aliases": [
+        "uu远程",
+        "uuremote",
+        "网易uu远程"
+    ],
+    "description": "网易出品的高性能远程控制软件，支持 4K 144Hz，免费低延迟远程办公和游戏。",
+    "category": "工具",
+    "homepage": "https://uuyc.163.com",
+    "color": "blue",
+    "default_version": "4.27.2",
+    "versions": {
+        "4.27.2": {
+            "urls": [
+                "https://api.nrd.nie.163.com/api/v1/release/dl/1?channel=gw",
+                "https://adl.netease.com/d/g/uuremote/c/gw"
+            ],
+            "arch": "x64",
+            "installer_type": "inno",
+            "install_args": [
+                "/SILENT",
+                "/NORESTART"
+            ],
+            "install_dir_candidates": [
+                "C:\\Program Files (x86)\\Netease\\UU远程",
+                "C:\\Program Files (x86)\\Netease\\UURemote"
+            ],
+            "detection": {
+                "display_name": "UU远程",
+                "publisher": "NetEase"
+            },
+            "shortcut_candidates": [
+                "%PUBLIC%\\Desktop\\UU远程.lnk",
+                "%USERPROFILE%\\Desktop\\UU远程.lnk"
+            ]
+        }
     }
-  }
 }

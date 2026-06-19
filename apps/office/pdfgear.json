@@ -1,31 +1,36 @@
 {
-  "name": "pdfgear",
-  "display_name": "PDFgear",
-  "aliases": ["pdfgear"],
-  "description": "免费强大的 PDF 编辑、转换、阅读工具，支持 AI 聊天、格式转换、编辑等功能。",
-  "category": "办公",
-  "homepage": "https://www.pdfgear.com/",
-  "default_version": "latest",
-  "versions": {
-    "latest": {
-      "urls": [
-        "https://downloadfiles.pdfgear.com/releases/windows/pdfgear_setup_v2.1.16.exe"
-      ],
-      "arch": "x64",
-      "installer_type": "inno",
-      "install_args": ["/S"],
-      "detection": {
-        "display_name": "PDFgear",
-        "publisher": "PDFgear"
-      },
-      "shortcut_candidates": [
-        "%PUBLIC%\\Desktop\\PDFgear.lnk",
-        "%USERPROFILE%\\Desktop\\PDFgear.lnk",
-        "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\PDFgear\\PDFgear.lnk"
-      ],
-      "install_dir_candidates": [
-        "C:\\Program Files\\PDFgear"
-      ]
+    "name": "pdfgear",
+    "display_name": "PDFgear",
+    "aliases": [
+        "pdfgear"
+    ],
+    "description": "免费强大的 PDF 编辑、转换、阅读工具，支持 AI 聊天、格式转换、编辑等功能。",
+    "category": "办公",
+    "homepage": "https://www.pdfgear.com/",
+    "color": "blue",
+    "default_version": "latest",
+    "versions": {
+        "latest": {
+            "urls": [
+                "https://downloadfiles.pdfgear.com/releases/windows/pdfgear_setup_v2.1.16.exe"
+            ],
+            "arch": "x64",
+            "installer_type": "inno",
+            "install_args": [
+                "/S"
+            ],
+            "detection": {
+                "display_name": "PDFgear",
+                "publisher": "PDFgear"
+            },
+            "shortcut_candidates": [
+                "%PUBLIC%\\Desktop\\PDFgear.lnk",
+                "%USERPROFILE%\\Desktop\\PDFgear.lnk",
+                "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\PDFgear\\PDFgear.lnk"
+            ],
+            "install_dir_candidates": [
+                "C:\\Program Files\\PDFgear"
+            ]
+        }
     }
-  }
 }

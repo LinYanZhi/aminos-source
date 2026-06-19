@@ -1,33 +1,40 @@
 {
-  "name": "pycharm",
-  "display_name": "PyCharm",
-  "aliases": ["pycharm", "py-charm", "jetbrains pycharm"],
-  "description": "JetBrains 推出的 Python 专业 IDE，支持智能代码补全、调试、测试等。",
-  "category": "开发工具",
-  "homepage": "https://www.jetbrains.com/pycharm/",
-  "default_version": "2026.1.3",
-  "versions": {
-    "2026.1.3": {
-      "urls": [
-        "https://download.jetbrains.com/python/pycharm-professional-2026.1.3.exe",
-        "https://download.jetbrains.com/python/pycharm-community-2026.1.3.exe"
-      ],
-      "arch": "x64",
-      "installer_type": "nsis",
-      "install_args": ["/S"],
-      "detection": {
-        "display_name": "PyCharm",
-        "publisher": "JetBrains"
-      },
-      "shortcut_candidates": [
-        "%PUBLIC%\\Desktop\\PyCharm.lnk",
-        "%USERPROFILE%\\Desktop\\PyCharm.lnk",
-        "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\JetBrains\\PyCharm *.lnk"
-      ],
-      "install_dir_candidates": [
-        "C:\\Program Files\\JetBrains\\PyCharm *",
-        "C:\\Program Files (x86)\\JetBrains\\PyCharm *"
-      ]
+    "name": "pycharm",
+    "display_name": "PyCharm",
+    "aliases": [
+        "pycharm",
+        "py-charm",
+        "jetbrains pycharm"
+    ],
+    "description": "JetBrains 推出的 Python 专业 IDE，支持智能代码补全、调试、测试等。",
+    "category": "开发工具",
+    "homepage": "https://www.jetbrains.com/pycharm/",
+    "color": "bright-green",
+    "default_version": "2026.1.3",
+    "versions": {
+        "2026.1.3": {
+            "urls": [
+                "https://download.jetbrains.com/python/pycharm-professional-2026.1.3.exe",
+                "https://download.jetbrains.com/python/pycharm-community-2026.1.3.exe"
+            ],
+            "arch": "x64",
+            "installer_type": "nsis",
+            "install_args": [
+                "/S"
+            ],
+            "detection": {
+                "display_name": "PyCharm",
+                "publisher": "JetBrains"
+            },
+            "shortcut_candidates": [
+                "%PUBLIC%\\Desktop\\PyCharm.lnk",
+                "%USERPROFILE%\\Desktop\\PyCharm.lnk",
+                "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\JetBrains\\PyCharm *.lnk"
+            ],
+            "install_dir_candidates": [
+                "C:\\Program Files\\JetBrains\\PyCharm *",
+                "C:\\Program Files (x86)\\JetBrains\\PyCharm *"
+            ]
+        }
     }
-  }
 }

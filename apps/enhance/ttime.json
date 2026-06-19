@@ -1,28 +1,31 @@
 {
-  "name": "ttime",
-  "display_name": "TTime",
-  "description": "一款简洁高效的翻译工具，支持多平台翻译引擎和截图翻译。",
-  "category": "工具",
-  "homepage": "https://github.com/InkTimeRecord/TTime",
-  "default_version": "0.9.15",
-  "versions": {
-    "0.9.15": {
-      "urls": [
-        "https://github.com/InkTimeRecord/TTime/releases/download/v0.9.15/TTime-0.9.15-setup.exe"
-      ],
-      "arch": "x64",
-      "installer_type": "nsis",
-      "install_args": ["/S"],
-      "install_dir_candidates": [
-        "%LOCALAPPDATA%\\Programs\\TTime"
-      ],
-      "detection": {
-        "display_name": "TTime"
-      },
-      "shortcut_candidates": [
-        "%PUBLIC%\\Desktop\\TTime.lnk",
-        "%USERPROFILE%\\Desktop\\TTime.lnk"
-      ]
+    "name": "ttime",
+    "display_name": "TTime",
+    "description": "一款简洁高效的翻译工具，支持多平台翻译引擎和截图翻译。",
+    "category": "工具",
+    "homepage": "https://github.com/InkTimeRecord/TTime",
+    "color": "cyan",
+    "default_version": "0.9.15",
+    "versions": {
+        "0.9.15": {
+            "urls": [
+                "https://github.com/InkTimeRecord/TTime/releases/download/v0.9.15/TTime-0.9.15-setup.exe"
+            ],
+            "arch": "x64",
+            "installer_type": "nsis",
+            "install_args": [
+                "/S"
+            ],
+            "install_dir_candidates": [
+                "%LOCALAPPDATA%\\Programs\\TTime"
+            ],
+            "detection": {
+                "display_name": "TTime"
+            },
+            "shortcut_candidates": [
+                "%PUBLIC%\\Desktop\\TTime.lnk",
+                "%USERPROFILE%\\Desktop\\TTime.lnk"
+            ]
+        }
     }
-  }
 }

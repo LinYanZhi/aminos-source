@@ -1,29 +1,32 @@
 {
-  "name": "everything",
-  "display_name": "Everything",
-  "description": "Windows 文件搜索工具，秒级索引和搜索全盘文件。",
-  "category": "工具",
-  "homepage": "https://www.voidtools.com/",
-  "default_version": "1.4.1.1032",
-  "versions": {
-    "1.4.1.1032": {
-      "urls": [
-        "https://www.voidtools.com/Everything-1.4.1.1032.x64-Setup.exe"
-      ],
-      "arch": "x64",
-      "installer_type": "nsis",
-      "install_args": ["/S"],
-      "install_dir_candidates": [
-        "C:\\Program Files\\Everything"
-      ],
-      "detection": {
-        "display_name": "Everything",
-        "publisher": "voidtools"
-      },
-      "shortcut_candidates": [
-        "%PUBLIC%\\Desktop\\Everything.lnk",
-        "%USERPROFILE%\\Desktop\\Everything.lnk"
-      ]
+    "name": "everything",
+    "display_name": "Everything",
+    "description": "Windows 文件搜索工具，秒级索引和搜索全盘文件。",
+    "category": "工具",
+    "homepage": "https://www.voidtools.com/",
+    "color": "green",
+    "default_version": "1.4.1.1032",
+    "versions": {
+        "1.4.1.1032": {
+            "urls": [
+                "https://www.voidtools.com/Everything-1.4.1.1032.x64-Setup.exe"
+            ],
+            "arch": "x64",
+            "installer_type": "nsis",
+            "install_args": [
+                "/S"
+            ],
+            "install_dir_candidates": [
+                "C:\\Program Files\\Everything"
+            ],
+            "detection": {
+                "display_name": "Everything",
+                "publisher": "voidtools"
+            },
+            "shortcut_candidates": [
+                "%PUBLIC%\\Desktop\\Everything.lnk",
+                "%USERPROFILE%\\Desktop\\Everything.lnk"
+            ]
+        }
     }
-  }
 }

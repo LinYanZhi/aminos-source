@@ -1,14 +1,15 @@
 {
-  "name": "ls",
-  "description": "Rust 版 ls — 一个轻量级的目录列表工具",
-  "default_version": "0.0.1",
-  "versions": {
-    "0.0.1": {
-      "urls": [
-        "https://raw.githubusercontent.com/LinYanZhi/aminos-source/main/tools/ls/ls.zip"
-      ],
-      "entry_point": "ls.exe",
-      "sha256": "8d16ab8ee44c54c2c0ddca92bda35aa09ed8b44236a9a25bc192e62007fe8ca9"
+    "name": "ls",
+    "description": "Rust 版 ls — 一个轻量级的目录列表工具",
+    "default_version": "0.0.1",
+    "color": "bold-yellow",
+    "versions": {
+        "0.0.1": {
+            "urls": [
+                "https://raw.githubusercontent.com/LinYanZhi/aminos-source/main/tools/ls/ls.zip"
+            ],
+            "entry_point": "ls.exe",
+            "sha256": "8d16ab8ee44c54c2c0ddca92bda35aa09ed8b44236a9a25bc192e62007fe8ca9"
+        }
     }
-  }
 }

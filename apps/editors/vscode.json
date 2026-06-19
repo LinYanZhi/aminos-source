@@ -1,53 +1,64 @@
 {
-  "name": "vscode",
-  "display_name": "Visual Studio Code",
-  "aliases": ["code", "vsc", "visual studio code"],
-  "description": "微软推出的轻量级代码编辑器，支持丰富的扩展生态。",
-  "category": "开发工具",
-  "homepage": "https://code.visualstudio.com/",
-  "default_version": "latest-user",
-  "versions": {
-    "latest-user": {
-      "urls": [
-        "https://update.code.visualstudio.com/latest/win32-x64-user/stable"
-      ],
-      "arch": "x64",
-      "installer_type": "inno",
-      "install_args": ["/SILENT", "/MERGETASKS=!runcode"],
-      "detection": {
-        "display_name": "Microsoft Visual Studio Code",
-        "publisher": "Microsoft Corporation"
-      },
-      "shortcut_candidates": [
-        "%USERPROFILE%\\Desktop\\Visual Studio Code.lnk",
-        "%PUBLIC%\\Desktop\\Visual Studio Code.lnk",
-        "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Code.lnk"
-      ],
-      "install_dir_candidates": [
-        "%LOCALAPPDATA%\\Programs\\Microsoft VS Code",
-        "C:\\Program Files\\Microsoft VS Code"
-      ]
-    },
-    "latest-system": {
-      "urls": [
-        "https://update.code.visualstudio.com/latest/win32-x64/stable"
-      ],
-      "arch": "x64",
-      "installer_type": "inno",
-      "install_args": ["/SILENT", "/MERGETASKS=!runcode"],
-      "detection": {
-        "display_name": "Microsoft Visual Studio Code",
-        "publisher": "Microsoft Corporation"
-      },
-      "shortcut_candidates": [
-        "%PUBLIC%\\Desktop\\Visual Studio Code.lnk",
-        "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Code.lnk",
-        "%USERPROFILE%\\Desktop\\Visual Studio Code.lnk"
-      ],
-      "install_dir_candidates": [
-        "C:\\Program Files\\Microsoft VS Code",
-        "%LOCALAPPDATA%\\Programs\\Microsoft VS Code"
-      ]
+    "name": "vscode",
+    "display_name": "Visual Studio Code",
+    "aliases": [
+        "code",
+        "vsc",
+        "visual studio code"
+    ],
+    "description": "微软推出的轻量级代码编辑器，支持丰富的扩展生态。",
+    "category": "开发工具",
+    "homepage": "https://code.visualstudio.com/",
+    "color": "blue",
+    "default_version": "latest-user",
+    "versions": {
+        "latest-user": {
+            "urls": [
+                "https://update.code.visualstudio.com/latest/win32-x64-user/stable"
+            ],
+            "arch": "x64",
+            "installer_type": "inno",
+            "install_args": [
+                "/SILENT",
+                "/MERGETASKS=!runcode"
+            ],
+            "detection": {
+                "display_name": "Microsoft Visual Studio Code",
+                "publisher": "Microsoft Corporation"
+            },
+            "shortcut_candidates": [
+                "%USERPROFILE%\\Desktop\\Visual Studio Code.lnk",
+                "%PUBLIC%\\Desktop\\Visual Studio Code.lnk",
+                "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Code.lnk"
+            ],
+            "install_dir_candidates": [
+                "%LOCALAPPDATA%\\Programs\\Microsoft VS Code",
+                "C:\\Program Files\\Microsoft VS Code"
+            ]
+        },
+        "latest-system": {
+            "urls": [
+                "https://update.code.visualstudio.com/latest/win32-x64/stable"
+            ],
+            "arch": "x64",
+            "installer_type": "inno",
+            "install_args": [
+                "/SILENT",
+                "/MERGETASKS=!runcode"
+            ],
+            "detection": {
+                "display_name": "Microsoft Visual Studio Code",
+                "publisher": "Microsoft Corporation"
+            },
+            "shortcut_candidates": [
+                "%PUBLIC%\\Desktop\\Visual Studio Code.lnk",
+                "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Code.lnk",
+                "%USERPROFILE%\\Desktop\\Visual Studio Code.lnk"
+            ],
+            "install_dir_candidates": [
+                "C:\\Program Files\\Microsoft VS Code",
+                "%LOCALAPPDATA%\\Programs\\Microsoft VS Code"
+            ]
+        }
     }
-  }
 }

@@ -1,32 +1,40 @@
 {
-  "name": "watt-toolkit",
-  "display_name": "Watt Toolkit",
-  "aliases": ["watt toolkit", "steam++", "steampp", "瓦特工具箱"],
-  "description": "一款功能强大的开源游戏工具箱，支持 Steam 加速、账号切换、库存管理等功能。",
-  "category": "工具",
-  "homepage": "https://steampp.net/",
-  "default_version": "latest",
-  "versions": {
-    "latest": {
-      "urls": [
-        "https://gitee.com/rmbgame/SteamTools/releases/download/3.1.0/Steam%20%20_v3.1.0_win_x64.exe",
-        "https://dd.soft9527.com/ali213/AhG0VLgvvxUvkvUcFee2WA",
-        "https://github.com/BeyondDimension/SteamTools/releases/download/3.1.0/Steam++_v3.1.0_win_x64.exe"
-      ],
-      "arch": "x64",
-      "installer_type": "inno",
-      "install_args": ["/S"],
-      "detection": {
-        "display_name": "Watt Toolkit",
-        "publisher": "BeyondDimension"
-      },
-      "shortcut_candidates": [
-        "%PUBLIC%\\Desktop\\Watt Toolkit.lnk",
-        "%USERPROFILE%\\Desktop\\Watt Toolkit.lnk"
-      ],
-      "install_dir_candidates": [
-        "C:\\Program Files\\Watt Toolkit"
-      ]
+    "name": "watt-toolkit",
+    "display_name": "Watt Toolkit",
+    "aliases": [
+        "watt toolkit",
+        "steam++",
+        "steampp",
+        "瓦特工具箱"
+    ],
+    "description": "一款功能强大的开源游戏工具箱，支持 Steam 加速、账号切换、库存管理等功能。",
+    "category": "工具",
+    "homepage": "https://steampp.net/",
+    "color": "bright-cyan",
+    "default_version": "latest",
+    "versions": {
+        "latest": {
+            "urls": [
+                "https://gitee.com/rmbgame/SteamTools/releases/download/3.1.0/Steam%20%20_v3.1.0_win_x64.exe",
+                "https://dd.soft9527.com/ali213/AhG0VLgvvxUvkvUcFee2WA",
+                "https://github.com/BeyondDimension/SteamTools/releases/download/3.1.0/Steam++_v3.1.0_win_x64.exe"
+            ],
+            "arch": "x64",
+            "installer_type": "inno",
+            "install_args": [
+                "/S"
+            ],
+            "detection": {
+                "display_name": "Watt Toolkit",
+                "publisher": "BeyondDimension"
+            },
+            "shortcut_candidates": [
+                "%PUBLIC%\\Desktop\\Watt Toolkit.lnk",
+                "%USERPROFILE%\\Desktop\\Watt Toolkit.lnk"
+            ],
+            "install_dir_candidates": [
+                "C:\\Program Files\\Watt Toolkit"
+            ]
+        }
     }
-  }
 }

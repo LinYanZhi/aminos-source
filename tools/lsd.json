@@ -1,14 +1,15 @@
 {
-  "name": "lsd",
-  "description": "LSDeluxe — 现代化的 ls 替代品，支持图标、颜色、树形视图和 Git 集成",
-  "default_version": "1.2.0",
-  "versions": {
-    "1.2.0": {
-      "urls": [
-        "https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd-v1.2.0-x86_64-pc-windows-msvc.zip"
-      ],
-      "entry_point": "lsd.exe",
-      "sha256": ""
+    "name": "lsd",
+    "description": "LSDeluxe — 现代化的 ls 替代品，支持图标、颜色、树形视图和 Git 集成",
+    "default_version": "1.2.0",
+    "color": "bold-cyan",
+    "versions": {
+        "1.2.0": {
+            "urls": [
+                "https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd-v1.2.0-x86_64-pc-windows-msvc.zip"
+            ],
+            "entry_point": "lsd.exe",
+            "sha256": ""
+        }
     }
-  }
 }

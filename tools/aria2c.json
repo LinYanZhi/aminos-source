@@ -1,13 +1,14 @@
 {
-  "name": "aria2c",
-  "description": "多协议多线程命令行下载工具",
-  "default_version": "1.37.0",
-  "versions": {
-    "1.37.0": {
-      "urls": [
-        "https://github.com/aria2/aria2/releases/download/release-1.37.0/aria2-1.37.0-win-64bit-build1.zip"
-      ],
-      "entry_point": "aria2c.exe"
+    "name": "aria2c",
+    "description": "多协议多线程命令行下载工具",
+    "default_version": "1.37.0",
+    "color": "bold-red",
+    "versions": {
+        "1.37.0": {
+            "urls": [
+                "https://github.com/aria2/aria2/releases/download/release-1.37.0/aria2-1.37.0-win-64bit-build1.zip"
+            ],
+            "entry_point": "aria2c.exe"
+        }
     }
-  }
 }

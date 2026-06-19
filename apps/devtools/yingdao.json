@@ -1,31 +1,39 @@
 {
-  "name": "yingdao",
-  "display_name": "影刀RPA",
-  "aliases": ["影刀", "yingdao", "影刀RPA", "shadowbot"],
-  "description": "国产 RPA 自动化工具，支持桌面软件、网页、Excel 等自动化操作。",
-  "category": "开发工具",
-  "homepage": "https://www.yingdao.com/",
-  "default_version": "latest",
-  "versions": {
-    "latest": {
-      "urls": [
-        "https://www.yingdao.com/download/?index=nav&arch=x64"
-      ],
-      "arch": "x64",
-      "installer_type": "inno",
-      "install_args": ["/S"],
-      "detection": {
-        "display_name": "影刀",
-        "publisher": "影刀"
-      },
-      "shortcut_candidates": [
-        "%PUBLIC%\\Desktop\\影刀RPA.lnk",
-        "%USERPROFILE%\\Desktop\\影刀RPA.lnk",
-        "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\影刀RPA\\影刀RPA.lnk"
-      ],
-      "install_dir_candidates": [
-        "C:\\Program Files\\ShadowBot"
-      ]
+    "name": "yingdao",
+    "display_name": "影刀RPA",
+    "aliases": [
+        "影刀",
+        "yingdao",
+        "影刀RPA",
+        "shadowbot"
+    ],
+    "description": "国产 RPA 自动化工具，支持桌面软件、网页、Excel 等自动化操作。",
+    "category": "开发工具",
+    "homepage": "https://www.yingdao.com/",
+    "color": "red",
+    "default_version": "latest",
+    "versions": {
+        "latest": {
+            "urls": [
+                "https://www.yingdao.com/download/?index=nav&arch=x64"
+            ],
+            "arch": "x64",
+            "installer_type": "inno",
+            "install_args": [
+                "/S"
+            ],
+            "detection": {
+                "display_name": "影刀",
+                "publisher": "影刀"
+            },
+            "shortcut_candidates": [
+                "%PUBLIC%\\Desktop\\影刀RPA.lnk",
+                "%USERPROFILE%\\Desktop\\影刀RPA.lnk",
+                "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\影刀RPA\\影刀RPA.lnk"
+            ],
+            "install_dir_candidates": [
+                "C:\\Program Files\\ShadowBot"
+            ]
+        }
     }
-  }
 }

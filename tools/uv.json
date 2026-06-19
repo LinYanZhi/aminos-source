@@ -1,13 +1,14 @@
 {
-  "name": "uv",
-  "description": "用 Rust 编写的极速 Python 包管理器",
-  "default_version": "0.11.19",
-  "versions": {
-    "0.11.19": {
-      "urls": [
-        "https://github.com/astral-sh/uv/releases/download/0.11.19/uv-x86_64-pc-windows-msvc.zip"
-      ],
-      "entry_point": "uv.exe"
+    "name": "uv",
+    "description": "用 Rust 编写的极速 Python 包管理器",
+    "default_version": "0.11.19",
+    "color": "bold-green",
+    "versions": {
+        "0.11.19": {
+            "urls": [
+                "https://github.com/astral-sh/uv/releases/download/0.11.19/uv-x86_64-pc-windows-msvc.zip"
+            ],
+            "entry_point": "uv.exe"
+        }
     }
-  }
 }
