@@ -1,17 +1,17 @@
-﻿{
-    "version":  2,
-    "files":  {
-                  "vscode.json":  {
-                                      "sha256":  "17dac62d2e71a31c17f2b563299a5b342a211eb48e06bf1181c0f552938fbeac"
-                                  },
-                  "cursor.json":  {
-                                      "sha256":  "40bc0812217fe37821cde49fb6ac38728b3cc72abc0dc9cf70c94cbc10bb1e82"
-                                  },
-                  "trae.json":  {
-                                    "sha256":  "0532825c801fa3ff40e52277ea0fdc7e3472d6db6e9be609a3a66ebf1039c941"
-                                },
-                  "notepadpp.json":  {
-                                         "sha256":  "d58845544d068473a649c007b8bf97ce67205fc29f7219b2b427d27d71b70cdb"
-                                     }
-              }
+{
+    "version": 2,
+    "files": {
+        "vscode.json": {
+            "sha256": "17dac62d2e71a31c17f2b563299a5b342a211eb48e06bf1181c0f552938fbeac"
+        },
+        "cursor.json": {
+            "sha256": "40bc0812217fe37821cde49fb6ac38728b3cc72abc0dc9cf70c94cbc10bb1e82"
+        },
+        "trae.json": {
+            "sha256": "0532825c801fa3ff40e52277ea0fdc7e3472d6db6e9be609a3a66ebf1039c941"
+        },
+        "notepadpp.json": {
+            "sha256": "d58845544d068473a649c007b8bf97ce67205fc29f7219b2b427d27d71b70cdb"
+        }
+    }
 }

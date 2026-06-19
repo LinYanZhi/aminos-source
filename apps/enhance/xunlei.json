@@ -1,0 +1,39 @@
+{
+    "name": "xunlei",
+    "display_name": "迅雷",
+    "aliases": [
+        "thunder",
+        "迅雷12",
+        "xunlei12",
+        "xunlei download"
+    ],
+    "description": "20 余年技术沉淀的专业下载工具，支持 HTTP/FTP/BT/磁力链接/电驴多协议下载，集成云盘和影音播放功能。",
+    "category": "效率增强",
+    "homepage": "https://www.xunlei.com",
+    "versions": {
+        "12.4.10": {
+            "urls": [
+                "https://down.sandai.net/thunder11/XunLeiWebSetup12.4.10.3940xl11.exe",
+                "https://www.xunlei.com"
+            ],
+            "arch": "x64",
+            "installer_type": "nsis",
+            "install_args": [
+                "/S"
+            ],
+            "install_dir_candidates": [
+                "C:\\Program Files (x86)\\Thunder Network\\Thunder",
+                "C:\\Program Files\\Thunder Network\\Thunder"
+            ],
+            "detection": {
+                "display_name": "迅雷",
+                "publisher": "深圳市迅雷网络技术有限公司"
+            },
+            "shortcut_candidates": [
+                "%PUBLIC%\\Desktop\\迅雷.lnk",
+                "%USERPROFILE%\\Desktop\\迅雷.lnk",
+                "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\迅雷\\迅雷.lnk"
+            ]
+        }
+    }
+}

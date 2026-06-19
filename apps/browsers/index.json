@@ -1,14 +1,14 @@
-﻿{
-    "version":  2,
-    "files":  {
-                  "chrome.json":  {
-                                      "sha256":  "851897a3aeabce30318235a8732f5387fcecfd400613e70ec1507b18f48c36b9"
-                                  },
-                  "firefox.json":  {
-                                       "sha256":  "bcd4c610735730acc082e7083becd8d490470f0dad07fe2222305d632e18d70e"
-                                   },
-                  "edge.json":  {
-                                    "sha256":  "dd2420ebe984047c60ce8fe27bd9a606cf18ca45ecae7abb5ca5c2687074504d"
-                                }
-              }
+{
+    "version": 2,
+    "files": {
+        "chrome.json": {
+            "sha256": "851897a3aeabce30318235a8732f5387fcecfd400613e70ec1507b18f48c36b9"
+        },
+        "firefox.json": {
+            "sha256": "bcd4c610735730acc082e7083becd8d490470f0dad07fe2222305d632e18d70e"
+        },
+        "edge.json": {
+            "sha256": "dd2420ebe984047c60ce8fe27bd9a606cf18ca45ecae7abb5ca5c2687074504d"
+        }
+    }
 }

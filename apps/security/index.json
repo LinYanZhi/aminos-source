@@ -1,11 +1,11 @@
-﻿{
-    "version":  2,
-    "files":  {
-                  "watt-toolkit.json":  {
-                                            "sha256":  "984a5e380ce8525e49320311f8bb54b7ef7b4ba0b71a957c4cb4791ec5f4382f"
-                                        },
-                  "huorong.json":  {
-                                       "sha256":  "c1b0e37f97acad8140927a9aebeab13e3a8f56def47742b495ede299f77632a1"
-                                   }
-              }
+{
+    "version": 2,
+    "files": {
+        "watt-toolkit.json": {
+            "sha256": "984a5e380ce8525e49320311f8bb54b7ef7b4ba0b71a957c4cb4791ec5f4382f"
+        },
+        "huorong.json": {
+            "sha256": "c1b0e37f97acad8140927a9aebeab13e3a8f56def47742b495ede299f77632a1"
+        }
+    }
 }

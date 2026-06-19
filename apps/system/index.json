@@ -1,17 +1,17 @@
-﻿{
-    "version":  2,
-    "files":  {
-                  "everything.json":  {
-                                          "sha256":  "f9395fea4fecfddc4b7ab46f114bffc0301fb3ce1d1dd1031a8ca2305d8c65a7"
-                                      },
-                  "spacesniffer.json":  {
-                                            "sha256":  "7b0d86daa18a77e3dab0ef00771244739cca9e5f8bb5aef9283553a777709f1b"
-                                        },
-                  "wepe.json":  {
-                                    "sha256":  "ac91641b6d01be8cc76f7aa09fdd0122ca9619840713a550fa7522b28b3a33f1"
-                                },
-                  "iobitunlocker.json":  {
-                                             "sha256":  "88b4b8d3a89960a8aacca0daff1df5474d7dc583646703cc76230a3a1baf1d46"
-                                         }
-              }
+{
+    "version": 2,
+    "files": {
+        "everything.json": {
+            "sha256": "f9395fea4fecfddc4b7ab46f114bffc0301fb3ce1d1dd1031a8ca2305d8c65a7"
+        },
+        "spacesniffer.json": {
+            "sha256": "7b0d86daa18a77e3dab0ef00771244739cca9e5f8bb5aef9283553a777709f1b"
+        },
+        "wepe.json": {
+            "sha256": "ac91641b6d01be8cc76f7aa09fdd0122ca9619840713a550fa7522b28b3a33f1"
+        },
+        "iobitunlocker.json": {
+            "sha256": "88b4b8d3a89960a8aacca0daff1df5474d7dc583646703cc76230a3a1baf1d46"
+        }
+    }
 }

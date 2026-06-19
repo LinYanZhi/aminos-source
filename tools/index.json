@@ -1,29 +1,29 @@
-﻿{
-    "version":  2,
-    "files":  {
-                  "ls.json":  {
-                                  "sha256":  "1505b0398f5616cef717f4cd726b50790bb30c13f2a6007b7c5f16b8a7162ff5"
-                              },
-                  "uv.json":  {
-                                  "sha256":  "52323b73d6d47e331cc325b7cfe41415e413f7ee25cafa0e7ef4716b0bd614d8"
-                              },
-                  "aria2c.json":  {
-                                      "sha256":  "c3b94c66849d43b9fd2aad2bcaec460911319c9dad0d9425d4e924b3f0ea9b37"
-                                  },
-                  "lsd.json":  {
-                                   "sha256":  "0c38301a1f84908d654881b48b83fd00ca5f550c763de235bf471ecd2f642e64"
-                               },
-                  "as.json":  {
-                                  "sha256":  "ec7411707eb408aac653433a47217830693a5b95d2a7224b8eef366e75a999b3"
-                              },
-                  "ss.json":  {
-                                  "sha256":  "8595e8879fb4d87bf94e53ef497129b68a49d27b424cd340a211a7ddb3d59dcc"
-                              },
-                  "pp.json":  {
-                                  "sha256":  "bd313fcc58eb961d1015f1cc92cbd7418adf226cf1693ee81157d4d6fbc0f1be"
-                              },
-                  "eza.json":  {
-                                   "sha256":  "88df644550b301b998b25eb23210faba947cc47b20661a789de0fcb95f59c0b4"
-                               }
-              }
+{
+    "version": 2,
+    "files": {
+        "ls.json": {
+            "sha256": "1505b0398f5616cef717f4cd726b50790bb30c13f2a6007b7c5f16b8a7162ff5"
+        },
+        "uv.json": {
+            "sha256": "52323b73d6d47e331cc325b7cfe41415e413f7ee25cafa0e7ef4716b0bd614d8"
+        },
+        "aria2c.json": {
+            "sha256": "c3b94c66849d43b9fd2aad2bcaec460911319c9dad0d9425d4e924b3f0ea9b37"
+        },
+        "lsd.json": {
+            "sha256": "0c38301a1f84908d654881b48b83fd00ca5f550c763de235bf471ecd2f642e64"
+        },
+        "as.json": {
+            "sha256": "ec7411707eb408aac653433a47217830693a5b95d2a7224b8eef366e75a999b3"
+        },
+        "ss.json": {
+            "sha256": "8595e8879fb4d87bf94e53ef497129b68a49d27b424cd340a211a7ddb3d59dcc"
+        },
+        "pp.json": {
+            "sha256": "bd313fcc58eb961d1015f1cc92cbd7418adf226cf1693ee81157d4d6fbc0f1be"
+        },
+        "eza.json": {
+            "sha256": "88df644550b301b998b25eb23210faba947cc47b20661a789de0fcb95f59c0b4"
+        }
+    }
 }

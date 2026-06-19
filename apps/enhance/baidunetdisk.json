@@ -1,0 +1,39 @@
+{
+    "name": "baidunetdisk",
+    "display_name": "百度网盘",
+    "aliases": [
+        "百度云",
+        "baidu cloud",
+        "baiduyun",
+        "baidu pan"
+    ],
+    "description": "百度公司推出的个人云存储服务，支持文件同步、备份、分享和多端访问，提供 AI 智能处理功能。",
+    "category": "效率增强",
+    "homepage": "https://pan.baidu.com",
+    "versions": {
+        "8.4.8.102": {
+            "urls": [
+                "https://issuepcdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_8.4.8.102.exe",
+                "https://pan.baidu.com/download"
+            ],
+            "arch": "x64",
+            "installer_type": "nsis",
+            "install_args": [
+                "/S"
+            ],
+            "install_dir_candidates": [
+                "C:\\Program Files (x86)\\Baidu\\BaiduNetdisk",
+                "C:\\Program Files\\Baidu\\BaiduNetdisk"
+            ],
+            "detection": {
+                "display_name": "百度网盘",
+                "publisher": "Baidu Online Network Technology (Beijing) Co., Ltd."
+            },
+            "shortcut_candidates": [
+                "%PUBLIC%\\Desktop\\百度网盘.lnk",
+                "%USERPROFILE%\\Desktop\\百度网盘.lnk",
+                "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\百度网盘\\百度网盘.lnk"
+            ]
+        }
+    }
+}

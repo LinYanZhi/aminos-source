@@ -1,8 +1,8 @@
-﻿{
-    "version":  2,
-    "files":  {
-                  "vmware.json":  {
-                                      "sha256":  "382865a329587025888fb6e616332ba27bc6c5c7c5b11043bf297993aea08846"
-                                  }
-              }
+{
+    "version": 2,
+    "files": {
+        "vmware.json": {
+            "sha256": "382865a329587025888fb6e616332ba27bc6c5c7c5b11043bf297993aea08846"
+        }
+    }
 }

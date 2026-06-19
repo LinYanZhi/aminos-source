@@ -1,0 +1,39 @@
+{
+    "name": "quarkclouddrive",
+    "display_name": "夸克网盘",
+    "aliases": [
+        "夸克",
+        "quark",
+        "quark pan",
+        "quark drive"
+    ],
+    "description": "夸克出品的个人云存储服务（阿里巴巴旗下），支持文件同步、在线预览、AI 处理和极速下载。",
+    "category": "效率增强",
+    "homepage": "https://pan.quark.cn",
+    "versions": {
+        "6.5.5.724": {
+            "urls": [
+                "https://download.quark.cn/download/quarkpc?platform=pc&ch=pcquark@clouddrive_share8",
+                "https://umcdn.quark.cn/download/37211/quarkclouddrivepc/pckk@product_pcweb_mini/QuarkCloudDrivePC_V6.5.5.724_pc_pf30001_(zh-cn)_releasemini_(Build2933328-1001-x64).exe"
+            ],
+            "arch": "x64",
+            "installer_type": "nsis",
+            "install_args": [
+                "/S"
+            ],
+            "install_dir_candidates": [
+                "C:\\Program Files (x86)\\Quark Cloud Drive",
+                "C:\\Program Files\\Quark Cloud Drive"
+            ],
+            "detection": {
+                "display_name": "夸克网盘",
+                "publisher": "Quark"
+            },
+            "shortcut_candidates": [
+                "%PUBLIC%\\Desktop\\夸克网盘.lnk",
+                "%USERPROFILE%\\Desktop\\夸克网盘.lnk",
+                "%ProgramData%\\Microsoft\\Windows\\Start Menu\\Programs\\夸克网盘\\夸克网盘.lnk"
+            ]
+        }
+    }
+}

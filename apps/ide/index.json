@@ -1,14 +1,14 @@
-﻿{
-    "version":  2,
-    "files":  {
-                  "visual-studio.json":  {
-                                             "sha256":  "1ca5b890b74770c17a86ce25fb5ebd196716ff5bb9cb7a676ad5441213713665"
-                                         },
-                  "datagrip.json":  {
-                                        "sha256":  "7d48bf624a235a2e56fee304f84c349a3b507bbac058ead1f6a0d7108e02ce2f"
-                                    },
-                  "pycharm.json":  {
-                                       "sha256":  "a858e73d490c98c2a7f6ab19c3e6e32b8822f84a845bb55aa4f90022907bc17d"
-                                   }
-              }
+{
+    "version": 2,
+    "files": {
+        "visual-studio.json": {
+            "sha256": "1ca5b890b74770c17a86ce25fb5ebd196716ff5bb9cb7a676ad5441213713665"
+        },
+        "datagrip.json": {
+            "sha256": "7d48bf624a235a2e56fee304f84c349a3b507bbac058ead1f6a0d7108e02ce2f"
+        },
+        "pycharm.json": {
+            "sha256": "a858e73d490c98c2a7f6ab19c3e6e32b8822f84a845bb55aa4f90022907bc17d"
+        }
+    }
 }

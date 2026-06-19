@@ -1,11 +1,11 @@
-﻿{
-    "version":  2,
-    "files":  {
-                  "git.json":  {
-                                   "sha256":  "973e1b8fc47d64b4de33ad94e8da5b51b77c965fc374325fc19c8d438ba9dd4d"
-                               },
-                  "yingdao.json":  {
-                                       "sha256":  "924f59db4c74e4892db0a0b5e95b64cf52d11ea645ab98bf641eebdd2b0b13ee"
-                                   }
-              }
+{
+    "version": 2,
+    "files": {
+        "git.json": {
+            "sha256": "973e1b8fc47d64b4de33ad94e8da5b51b77c965fc374325fc19c8d438ba9dd4d"
+        },
+        "yingdao.json": {
+            "sha256": "924f59db4c74e4892db0a0b5e95b64cf52d11ea645ab98bf641eebdd2b0b13ee"
+        }
+    }
 }
