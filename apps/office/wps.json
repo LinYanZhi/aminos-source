@@ -14,8 +14,7 @@
     "versions": {
         "latest": {
             "urls": [
-                "https://official-package.wpscdn.cn/wps/download/WPS_Setup_26895.exe",
-                "https://download.mirror-wps.com/ibigpnbtzlc8/WPS_Setup_25225.exe"
+                "https://official-package.wpscdn.cn/wps/download/WPS_Setup_26895.exe"
             ],
             "arch": "x64",
             "installer_type": "inno",
