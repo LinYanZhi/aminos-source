@@ -16,8 +16,7 @@
     "versions": {
         "8.5.2.102": {
             "urls": [
-                "https://issuepcdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_8.5.2.102.exe",
-                "https://pan.baidu.com/download"
+                "https://issuepcdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_8.5.2.102.exe"
             ],
             "arch": "x64",
             "installer_type": "nsis",

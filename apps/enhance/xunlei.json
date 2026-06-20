@@ -14,8 +14,7 @@
     "versions": {
         "12.4.10": {
             "urls": [
-                "https://down.sandai.net/thunder11/XunLeiWebSetup12.4.10.3940xl11.exe",
-                "https://www.xunlei.com"
+                "https://down.sandai.net/thunder11/XunLeiWebSetup12.4.10.3940xl11.exe"
             ],
             "arch": "x64",
             "installer_type": "nsis",
