@@ -12,7 +12,7 @@
     "category": "社交",
     "homepage": "https://work.weixin.qq.com/",
     "versions": {
-        "latest": {
+        "5.0.8.6009": {
             "urls": [
                 "https://work.weixin.qq.com/wework_admin/commdownload?platform=win"
             ],

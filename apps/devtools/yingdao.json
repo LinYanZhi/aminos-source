@@ -11,7 +11,7 @@
     "category": "开发工具",
     "homepage": "https://www.yingdao.com/",
     "versions": {
-        "latest": {
+        "6.0.30": {
             "urls": [
                 "https://www.yingdao.com/download/?index=nav&arch=x64"
             ],

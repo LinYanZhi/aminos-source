@@ -5,7 +5,7 @@
     "category": "浏览器",
     "homepage": "https://www.google.com/chrome/",
     "versions": {
-        "latest": {
+        "150.0.7863.0": {
             "urls": [
                 "https://dl.google.com/chrome/install/latest/chrome_installer.exe"
             ],

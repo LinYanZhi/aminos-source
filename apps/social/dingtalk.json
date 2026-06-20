@@ -11,7 +11,7 @@
     "homepage": "https://www.dingtalk.com/",
     "downloader": "rust-ureq",
     "versions": {
-        "latest": {
+        "7.5.30.5179102": {
             "urls": [
                 "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v7.5.30.5179102.exe"
             ],

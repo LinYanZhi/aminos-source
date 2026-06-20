@@ -5,7 +5,7 @@
     "category": "浏览器",
     "homepage": "https://www.mozilla.org/firefox/",
     "versions": {
-        "latest": {
+        "152.0.1": {
             "urls": [
                 "https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=zh-CN"
             ],
