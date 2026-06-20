@@ -1,0 +1,25 @@
+{
+    "name": "officetoolplus",
+    "display_name": "Office Tool Plus",
+    "aliases": [
+        "otp",
+        "office tool",
+        "office deploy",
+        "otoolplus"
+    ],
+    "description": "强大易用的 Office 部署工具，支持自定义安装、激活和管理 Microsoft Office，集成下载、卸载、转版本等功能。",
+    "category": "办公",
+    "homepage": "https://officetool.plus",
+    "versions": {
+        "11.3.12.0": {
+            "urls": [
+                "https://github.com/YerongAI/Office-Tool/releases/download/v11.3.12.0/Office_Tool_with_runtime_v11.3.12.0_x64.zip"
+            ],
+            "arch": "x64",
+            "installer_type": "portable",
+            "install_args": [],
+            "entry_point": "Office Tool Plus.exe",
+            "shortcut_candidates": []
+        }
+    }
+}
